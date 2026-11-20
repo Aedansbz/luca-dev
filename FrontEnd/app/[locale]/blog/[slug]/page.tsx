@@ -1,0 +1,107 @@
+import type { Metadata } from 'next';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+
+import {
+  BlogContent,
+  HeroSection,
+  RelatedArticles,
+} from '@components/templates/blogTemplate';
+import JsonLd from '@components/molecules/storefront/JsonLd';
+import StoreBreadcrumbs from '@components/molecules/storefront/StoreBreadcrumbs';
+import { getBlogBySlug } from '@lib/blog';
+import { extractFaqFromHtml } from '@lib/blogFaq';
+import { absoluteUrl, buildPageMetadata } from '@lib/seo';
+import { fetchStaticSlugParams } from '@lib/staticParams';
+
+export const revalidate = 60;
+
+type Props = {
+  params: Promise<{ slug: string; locale: string }>;
+};
+
+// ===== 1. تولید مسیرهای استاتیک =====
+export async function generateStaticParams() {
+  return fetchStaticSlugParams('Blogs/getslugs');
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug, locale } = await params;
+  // Throws notFound() for a missing article. Metadata resolves before the
+  // response status is sent, so this is what makes the response a real 404.
+  const blog = await getBlogBySlug({ params: { slug } });
+
+  const title =
+    locale === 'fa'
+      ? blog.titleFa || blog.titleEn
+      : blog.titleEn || blog.titleFa;
+  const description = (
+    (locale === 'fa' ? blog.metaDescriptionFa : blog.metaDescriptionEn) ||
+    (locale === 'fa' ? blog.excerptFa : blog.excerptEn) ||
+    ''
+  ).slice(0, 160);
+
+  return buildPageMetadata({
+    locale,
+    path: `blog/${slug}`,
+    title,
+    description,
+    images: [blog.thumbnailFile],
+    type: 'article',
+    keywords: (
+      locale === 'fa' ? blog.metaKeywordsFa : blog.metaKeywordsEn
+    )
+      ?.split(',')
+      .map((k) => k.trim())
+      .filter(Boolean),
+  });
+}
+
+export default async function Page({ params }: Props) {
+  const { slug, locale } = await params;
+  setRequestLocale(locale);
+  const tNav = await getTranslations({ locale, namespace: 'header' });
+  const blog = await getBlogBySlug({ params: { slug } });
+
+  const title =
+    locale === 'fa'
+      ? blog.titleFa || blog.titleEn
+      : blog.titleEn || blog.titleFa;
+
+  const contentHtml =
+    locale === 'fa'
+      ? blog.contentFa || blog.contentEn
+      : blog.contentEn || blog.contentFa;
+
+  const faqItems = extractFaqFromHtml(contentHtml);
+
+  const articleLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    image: blog.thumbnailFile ? [blog.thumbnailFile] : undefined,
+    datePublished: blog.createdAt,
+    dateModified: blog.updatedAt || blog.createdAt,
+    inLanguage: locale,
+    url: absoluteUrl(locale, `blog/${slug}`),
+    author: blog.authorName
+      ? { '@type': 'Person', name: blog.authorName }
+      : undefined,
+  };
+
+  return (
+    <article className="store-page !pt-6">
+      <JsonLd data={articleLd} />
+      <StoreBreadcrumbs
+        locale={locale}
+        items={[
+          { name: tNav('home'), path: '' },
+          { name: tNav('blogs'), path: 'blog' },
+          { name: title },
+        ]}
+      />
+      <HeroSection blog={blog} locale={locale} />
+      <BlogContent blog={blog} locale={locale} faqItems={faqItems} />
+      <RelatedArticles />
+    </article>
+  );
+}

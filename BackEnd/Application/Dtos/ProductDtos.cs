@@ -1,0 +1,210 @@
+using Domain.Entities;
+using Microsoft.AspNetCore.Http;
+using OnlineShop.Domain.Entities;
+
+namespace Application.Dtos
+{
+    public class ProductDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = default!;
+        public string Slug { get; set; } = default!;
+        public string Description { get; set; } = default!;
+        public string? SeoTitleFa { get; set; }
+        public string? SeoTitleEn { get; set; }
+        public string? MetaDescriptionFa { get; set; }
+        public string? MetaDescriptionEn { get; set; }
+        public int CategoryId { get; set; }
+        public string CategoryName { get; set; } 
+
+        public int? BrandId { get; set; }
+        public string BrandName { get; set; }
+
+        public bool IsActive { get; set; }
+
+        public string? MainImage { get; set; }
+
+    }
+
+
+    public class ProductByDetailDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = default!;
+        public string Slug { get; set; } = default!;
+        public string Description { get; set; } = default!;
+        public int CategoryId { get; set; }
+        public string? CategoryName { get; set; }
+        /// <summary>English name of the category (CategoryName is the Persian one).</summary>
+        public string? CategoryEnglishName { get; set; }
+        public int? BrandId { get; set; }
+        public string? BrandName { get; set; }
+        public List<string> ImageUrls { get; set; } = new List<string>();
+        public string? MainImage { get; set; }
+
+        /// <summary>Best (lowest) active offer base price.</summary>
+        public decimal? Price { get; set; }
+        /// <summary>Best offer price after discounts.</summary>
+        public decimal? FinalPrice { get; set; }
+        public bool? DiscountIsPercent { get; set; }
+        public decimal? DiscountAmount { get; set; }
+        public int? BestOfferId { get; set; }
+        public int Inventory { get; set; }
+        public bool InStock { get; set; }
+        /// <summary>تنوع‌های قابل‌انتخاب (مثلاً بزرگنمایی‌ها)؛ خالی یعنی محصول تنوع ندارد.</summary>
+        public List<ProductVariantDto> Variants { get; set; } = new();
+        public string Currency { get; set; } = "IRR";
+        public double AverageRate { get; set; }
+        public int RateCount { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public string? SeoTitleFa { get; set; }
+        public string? SeoTitleEn { get; set; }
+        public string? MetaDescriptionFa { get; set; }
+        public string? MetaDescriptionEn { get; set; }
+        public string? BrandSlug { get; set; }
+        public string? CategorySlug { get; set; }
+    }
+
+    public class ProductCardDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = default!;
+        public string Description { get; set; } = default!;
+        public string? MainImage { get; set; }
+
+    }
+    public class ProductByDetailForSpecialsDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = default!;
+        public string Description { get; set; } = default!;
+        public decimal Price { get; set; }
+        public int CategoryId { get; set; }
+        public int? BrandId { get; set; }
+        public int? DiscountId { get; set; }
+        public int ProductId { get; set; }
+        public int ProductOfferId { get; set; }
+        public string? DiscountName { get; set; }
+
+        public bool? DiscountIsPercent { get; set; }
+        public decimal? DiscountAmount { get; set; }
+
+        // قیمت محاسبه شده نهایی (با تخفیف)
+        public decimal FinalPrice { get; set; }
+
+        public List<string> ImageUrls { get; set; } = new List<string>();
+        public List<TagDto> Tags { get; set; } = new List<TagDto>();
+
+        public string? MainImage { get; set; }
+        public double AverageRate { get; set; }
+        public int RateCount { get; set; }
+        public SpecialOffersDto specialOfferData { get; set; }
+        public UserDto SupplierExtended { get; set; }
+
+
+    }
+    public class ProductSpecialsByIdDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = default!;
+        
+        public List<ProductSpecificationDto> Specifications { get; set; } = new();
+        
+
+
+    }
+    public class IdDto
+    {
+        public int Id { get; set; }
+    }
+
+
+    public class TheMostProductDto
+    {
+        public int Id { get; set; }
+        public string Slug { get; set; } = default!;
+        /// <summary>Null when the product has no active offer in stock.</summary>
+        public int? BestOfferId { get; set; }
+
+        public string Name { get; set; } = default!;
+        public string Description { get; set; } = default!;
+        public decimal? Price { get; set; }
+        public int Inventory { get; set; }
+        public bool InStock { get; set; }
+        public string? PersianCategoryName { get; set; }
+        public string? EnglishCategoryName { get; set; }
+        public string? Brand  { get; set; }
+        public bool? DiscountIsPercent { get; set; }
+        public decimal? DiscountAmount { get; set; }
+        public decimal? FinalPrice { get; set; }
+        public string? MainImage { get; set; }
+        public double AverageRate { get; set; }
+        public int RateCount { get; set; }
+        /// <summary>تنوع‌های قابل‌انتخاب (مثلاً بزرگنمایی‌ها)؛ خالی یعنی محصول تنوع ندارد.</summary>
+        public List<ProductVariantDto> Variants { get; set; } = new();
+    }
+
+    /// <summary>
+    /// یک تنوع از محصول (مثلاً بزرگنمایی 3.5x). بهترین پیشنهاد فعال همان تنوع را نشان می‌دهد؛
+    /// OfferId همان چیزی است که به سبد خرید فرستاده می‌شود.
+    /// </summary>
+    public class ProductVariantDto
+    {
+        public int OfferId { get; set; }
+        public string? Name { get; set; }
+        public string Value { get; set; } = string.Empty;
+        public decimal Price { get; set; }
+        public decimal FinalPrice { get; set; }
+        public bool? DiscountIsPercent { get; set; }
+        public decimal? DiscountAmount { get; set; }
+        public int Inventory { get; set; }
+        public bool InStock { get; set; }
+    }
+
+
+
+
+    public class ProductImageDto
+    {
+        public int Id { get; set; }
+        public int ProductId { get; set; }
+        public IFormFile? ProductImageFile { get; set; }
+        public bool IsMain { get; set; }
+    }
+
+    public class ProductSpecificationDto
+    {
+        public string Key { get; set; } = string.Empty;
+        public string Value { get; set; } = string.Empty;
+
+    }
+
+
+    public class ProductRelatinalToUserDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = default!;
+        public string Description { get; set; } = default!;
+
+        public decimal Price { get; set; }
+        public int? DiscountId { get; set; }
+        public bool? DiscountIsPercent { get; set; }
+
+        public decimal? DiscountAmount { get; set; }
+        public decimal FinalPrice { get; set; }
+        public string? MainImage { get; set; }
+
+        public BrandDto Brand { get; set; } = new();
+        public CategoryDto Category { get; set; } = new();
+
+    }
+
+    public class ProductCardBySupplierDto : ProductCardDto
+    {
+
+        public List<SupplierDto> suppliers { get; set; }
+    }
+
+
+
+}

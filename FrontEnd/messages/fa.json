@@ -1,0 +1,1232 @@
+{
+  "brand": {
+    "name": "لوکا",
+    "homeLink": "LUCA — صفحه اصلی لوکا",
+    "icon": "آیکون"
+  },
+  "blog": {
+    "author": "نویسنده",
+    "tableOfContents": "فهرست مطالب",
+    "introduction": "مقدمه",
+    "content": "محتوا",
+    "conclusion": "نتیجه‌گیری",
+    "share": "اشتراک گذاری",
+    "createdAt": "تاریخ ایجاد",
+    "updatedAt": "آخرین ویرایش",
+    "title": "مقالات لوکا",
+    "subtitle": "راهنمای انتخاب، استفاده و نگهداری لوپ و هدلایت دندانپزشکی.",
+    "empty": "مقاله‌ای یافت نشد",
+    "emptyHint": "به‌زودی مطالب جدید منتشر می‌شود.",
+    "landingTitle": "از مقالات لوکا بخوانید",
+    "landingSubtitle": "راهنماها و نکات کاربردی درباره انتخاب و نگهداری لوپ",
+    "viewAll": "مشاهده همه مقالات",
+    "readMore": "ادامه مطلب"
+  },
+  "header": {
+    "home": "صفحه اصلی",
+    "products": "محصولات",
+    "categories": "دسته‌بندی‌ها",
+    "brands": "برندها",
+    "suppliers": "تأمین‌کنندگان",
+    "tags": "برچسب‌ها",
+    "discounts": "تخفیف‌ها",
+    "blogs": "مقالات",
+    "landing page": "بازگشت به صفحه اصلی",
+    "register": "ثبت‌نام / ورود",
+    "shopping cart": "سبد خرید",
+    "theme": "تغییر تم",
+    "lang": "تغییر زبان",
+    "mainNav": "منوی اصلی",
+    "openMenu": "باز کردن منو",
+    "closeMenu": "بستن منو",
+    "announcementCta": "رزرو وقت",
+    "dealers": "نمایندگی‌ها",
+    "contact": "تماس با ما",
+    "search": "جستجو در محصولات",
+    "story": "داستان لوکا"
+  },
+  "footer": {
+    "tagline": "لوکا؛ لوپ و هدلایت دندانپزشکی، ساخته‌شده برای چهره و شیوه کار شما.",
+    "copyright": "© {year} {brand}. تمامی حقوق محفوظ است.",
+    "columns": {
+      "shop": "فروشگاه",
+      "guides": "مقالات و راهنما",
+      "service": "خدمات مشتریان"
+    },
+    "links": {
+      "products": "محصولات",
+      "categories": "دسته‌بندی‌ها",
+      "brands": "برندها",
+      "discounts": "تخفیف‌ها",
+      "blog": "مقالات",
+      "suppliers": "تأمین‌کنندگان",
+      "tags": "برچسب‌ها",
+      "sitemap": "نقشه سایت",
+      "register": "ورود / ثبت‌نام",
+      "cart": "سبد خرید",
+      "orders": "سفارش‌ها",
+      "faq": "سوالات متداول",
+      "cooperation": "همکاری با ما",
+      "trackOrder": "پیگیری سفارش",
+      "story": "داستان لوکا"
+    },
+    "social": {
+      "instagram": "اینستاگرام",
+      "telegram": "تلگرام",
+      "youtube": "یوتیوب",
+      "whatsapp": "واتس‌اپ"
+    }
+  },
+  "seo": {
+    "homeTitle": "لوکا | لوپ و هدلایت دندانپزشکی",
+    "homeDescription": "خرید لوپ دندانپزشکی TTL، فلیپ‌آپ و ارگونومیک و هدلایت LED لوکا؛ ساخت سفارشی بر اساس اندازه‌های شما، با مشاوره تخصصی.",
+    "homeKeywords": "لوپ دندانپزشکی,لوپ TTL,لوپ ارگونومیک,هدلایت دندانپزشکی,لوکا,Luca loupes"
+  },
+  "htmlSitemap": {
+    "title": "نقشه سایت",
+    "description": "فهرست صفحات فارسی و انگلیسی فروشگاه لوکا شامل محصولات، مقالات، برندها، دسته‌بندی‌ها و تأمین‌کنندگان.",
+    "mainPages": "صفحات اصلی",
+    "products": "محصولات",
+    "blogs": "مقالات",
+    "brands": "برندها",
+    "categories": "دسته‌بندی‌ها",
+    "suppliers": "تأمین‌کنندگان",
+    "tags": "برچسب‌ها",
+    "languages": "نسخه‌های زبانی",
+    "persian": "نسخه فارسی",
+    "english": "نسخه انگلیسی",
+    "xmlHint": "نقشه سایت XML برای موتورهای جستجو:",
+    "empty": "موردی برای نمایش وجود ندارد.",
+    "brandPrefix": "برند",
+    "categoryPrefix": "دسته",
+    "supplierPrefix": "تأمین‌کننده",
+    "tagPrefix": "برچسب"
+  },
+  "store": {
+    "error": "خطا",
+    "fetchError": "خطا در دریافت اطلاعات",
+    "serverError": "مشکلی در ارتباط با سرور پیش آمد. لطفاً دوباره تلاش کنید.",
+    "viewBrand": "مشاهده برند",
+    "showingCount": "نمایش {count} مورد",
+    "ofTotal": "از {total}",
+    "pageSuffix": " — صفحه {page}",
+    "notFound": "یافت نشد",
+    "notFoundHint": "مورد درخواستی وجود ندارد یا حذف شده است.",
+    "loadError": "خطا در بارگذاری",
+    "loadErrorHint": "متأسفانه در بارگذاری این صفحه مشکلی پیش آمده است.",
+    "backHome": "بازگشت به خانه",
+    "productFallbackTitle": "محصول",
+    "allProducts": "همه محصولات",
+    "blogGuides": "راهنماهای بلاگ",
+    "retry": "تلاش مجدد",
+    "loadErrorRetryHint": "لطفاً دوباره تلاش کنید. اگر مشکل ادامه داشت با پشتیبانی تماس بگیرید.",
+    "genericError": "خطایی رخ داد",
+    "pageNotFound": "صفحه پیدا نشد",
+    "viewProducts": "مشاهده محصولات"
+  },
+  "productsPage": {
+    "title": "لوپ‌ها و هدلایت‌ها",
+    "description": "از گالیله‌ای سبک برای کار روزمره تا پریزماتیک برای جزئیات ریز؛ هر لوپ بر اساس اندازه‌های شما ساخته می‌شود.",
+    "empty": "محصولی یافت نشد",
+    "emptyHint": "در حال حاضر محصولی برای نمایش وجود ندارد.",
+    "loadError": "خطا در دریافت محصولات"
+  },
+  "categoriesPage": {
+    "title": "دسته‌بندی‌ها",
+    "description": "لوپ‌ها، هدلایت‌ها و لوازم جانبی لوکا را بر اساس دسته مرور کنید.",
+    "empty": "دسته‌بندی‌ای یافت نشد",
+    "emptyHint": "هنوز دسته‌بندی‌ای ثبت نشده است."
+  },
+  "brandsPage": {
+    "title": "برندها",
+    "description": "برندهای موجود در فروشگاه را اینجا ببینید.",
+    "empty": "برندی یافت نشد",
+    "emptyHint": "هنوز برندی برای نمایش وجود ندارد."
+  },
+  "tagsPage": {
+    "title": "برچسب‌ها",
+    "description": "محصولات لوکا را بر اساس برچسب و کاربرد مرور کنید.",
+    "empty": "برچسبی یافت نشد",
+    "emptyHint": "هنوز برچسبی ثبت نشده است."
+  },
+  "suppliersPage": {
+    "title": "تأمین‌کنندگان",
+    "description": "فهرست نمایندگی‌ها و تأمین‌کنندگان رسمی محصولات لوکا.",
+    "empty": "تأمین‌کننده‌ای یافت نشد",
+    "emptyHint": "هنوز تأمین‌کننده‌ای ثبت نشده است."
+  },
+  "discountsPage": {
+    "title": "تخفیف‌ها",
+    "description": "پیشنهادها و تخفیف‌های ویژه لوپ و هدلایت لوکا.",
+    "empty": "تخفیفی یافت نشد",
+    "emptyHint": "در حال حاضر پیشنهاد فعالی وجود ندارد.",
+    "comingSoon": "به‌زودی پیشنهادهای ویژه اینجا نمایش داده می‌شود."
+  },
+  "registerPage": {
+    "metaTitle": "ورود / ثبت‌نام",
+    "metaDescription": "وارد حساب کاربری شوید یا حساب جدید بسازید."
+  },
+  "cartPage": {
+    "metaTitle": "سبد خرید",
+    "metaDescription": "بررسی اقلام سبد خرید و ادامه سفارش."
+  },
+  "title": {
+    "notification": "اعلان ها"
+  },
+  "homePage": {
+    "title": "دقت، در امتداد نگاه شما",
+    "subtitle": "لوپ‌های دندانپزشکی لوکا؛ طراحی‌شده در کره برای ساعت‌ها کار دقیق و راحت.",
+    "ctaProducts": "مشاهده مجموعه",
+    "ctaDiscounts": "تخفیف‌های ویژه",
+    "heroImageAlt": "لوپ دندانپزشکی لوکا",
+    "eyebrow": "مجموعه جدید",
+    "videoPause": "توقف ویدیوی پس‌زمینه",
+    "videoPlay": "پخش ویدیوی پس‌زمینه",
+    "heroLinkAria": "مشاهده جزئیات بنر"
+  },
+  "usp": {
+    "sectionTitle": "چرا لوکا؟",
+    "items": {
+      "shipping": {
+        "title": "ارسال ایمن",
+        "description": "بسته‌بندی محافظ مخصوص ابزار اپتیکی"
+      },
+      "support": {
+        "title": "مشاوره تخصصی",
+        "description": "راهنمایی برای انتخاب بزرگ‌نمایی، فاصله کاری و فریم"
+      },
+      "cod": {
+        "title": "پرداخت آسان",
+        "description": "[روش‌های پرداخت]"
+      },
+      "warranty": {
+        "title": "گارانتی",
+        "description": "[مدت و شرایط گارانتی]"
+      },
+      "authenticity": {
+        "title": "اصالت کالا",
+        "description": "فقط محصولات اصل لوکا"
+      }
+    }
+  },
+  "trust": {
+    "sectionTitle": "چرا دندانپزشکان به لوکا اعتماد می‌کنند؟",
+    "badges": {
+      "secure": {
+        "title": "پرداخت امن",
+        "description": "اطلاعات شما رمزگذاری می‌شود"
+      },
+      "cod": {
+        "title": "پرداخت در محل",
+        "description": "[شرایط پرداخت در محل]"
+      },
+      "return": {
+        "title": "ضمانت بازگشت",
+        "description": "[مهلت و شرایط بازگشت کالا]"
+      },
+      "shipping": {
+        "title": "ارسال سریع و ایمن",
+        "description": "تحویل مطمئن به سراسر کشور"
+      }
+    },
+    "reviews": {
+      "1": {
+        "name": "[نام مشتری]",
+        "comment": "[نظر مشتری ۱]"
+      },
+      "2": {
+        "name": "[نام مشتری]",
+        "comment": "[نظر مشتری ۲]"
+      },
+      "3": {
+        "name": "[نام مشتری]",
+        "comment": "[نظر مشتری ۳]"
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "از زبان دندانپزشکان",
+    "items": {
+      "1": {
+        "name": "[نام و تخصص]",
+        "comment": "[نقل‌قول مشتری ۱]",
+        "product": "[محصول]"
+      },
+      "2": {
+        "name": "[نام و تخصص]",
+        "comment": "[نقل‌قول مشتری ۲]",
+        "product": "[محصول]"
+      },
+      "3": {
+        "name": "[نام و تخصص]",
+        "comment": "[نقل‌قول مشتری ۳]",
+        "product": "[محصول]"
+      }
+    }
+  },
+  "general": {
+    "changePassWord": "تغییر رمز عبور",
+    "save": "ذخیره",
+    "saving": "در حال ذخیره...",
+    "new": "جدید",
+    "edit": "ویرایش",
+    "list": "لیست",
+    "default": "پیش فرض",
+    "apply": "ثبت",
+    "delete": "حذف",
+    "reset": "بازنشانی",
+    "search": "جستجو...",
+    "actions": "عملیات",
+    "back": "بازگشت",
+    "loading": "در حال بارگذاری...",
+    "paymentMethod": "روش پرداخت",
+    "loginFirst": "ابتدا وارد شوید"
+  },
+  "admin": {
+    "productImages": {
+      "title": "تصاویر محصول",
+      "subtitle": "همه‌ی تصاویر یک محصول را یک‌جا ببینید، تصویر اصلی را انتخاب کنید و هر تصویر را جداگانه عوض، پنهان یا حذف کنید. افزودن تصویر جدید، تصاویر قبلی را پاک نمی‌کند.",
+      "pickProduct": "محصول",
+      "pickProductPlaceholder": "محصول را انتخاب کنید",
+      "pickProductHint": "برای دیدن و ویرایش گالری، ابتدا یک محصول انتخاب کنید.",
+      "count": "{count} تصویر",
+      "addImages": "افزودن تصویر",
+      "main": "تصویر اصلی",
+      "mainHint": "در کارت محصول و نتایج جستجو نمایش داده می‌شود",
+      "setMain": "انتخاب به‌عنوان تصویر اصلی",
+      "replace": "تعویض این تصویر",
+      "hide": "پنهان کردن در فروشگاه",
+      "show": "نمایش در فروشگاه",
+      "hidden": "پنهان",
+      "delete": "حذف",
+      "cancel": "انصراف",
+      "confirmDelete": "این تصویر حذف شود؟",
+      "dropTitle": "افزودن تصویر",
+      "dropHint": "کلیک کنید یا تصاویر را اینجا رها کنید؛ چند تصویر هم‌زمان مجاز است. برای تعویض، تصویر را روی همان کارت رها کنید.",
+      "emptyTitle": "این محصول هنوز تصویری ندارد",
+      "emptyHint": "تصاویر را اینجا رها کنید یا کلیک کنید. اولین تصویر، تصویر اصلی می‌شود و بعداً قابل تغییر است.",
+      "dropToReplace": "رها کنید تا جایگزین شود",
+      "uploading": "در حال آپلود…",
+      "queued": "در صف آپلود",
+      "uploadFailed": "آپلود ناموفق بود",
+      "retry": "تلاش دوباره",
+      "dismiss": "بستن",
+      "mainChanged": "تصویر اصلی تغییر کرد",
+      "replaced": "تصویر جایگزین شد",
+      "deleted": "تصویر حذف شد",
+      "hiddenDone": "تصویر در فروشگاه پنهان شد",
+      "shownDone": "تصویر در فروشگاه نمایش داده می‌شود",
+      "saveFailed": "ذخیره ناموفق بود",
+      "loadFailed": "بارگذاری تصاویر ناموفق بود",
+      "notImage": "«{name}» فایل تصویری نیست",
+      "tooLarge": "حجم «{name}» بیشتر از ۱۰ مگابایت است",
+      "download": "دانلود با کیفیت اصلی",
+      "downloadCompressed": "دانلود (برای این تصویر فقط نسخه‌ی فشرده موجود است)",
+      "recentTitle": "آخرین تصاویر",
+      "recentEmpty": "هنوز تصویری آپلود نشده است.",
+      "recentEnd": "به انتهای فهرست رسیدید",
+      "recentPages": "صفحه‌های فهرست تصاویر",
+      "prevPage": "صفحه‌ی قبل",
+      "nextPage": "صفحه‌ی بعد"
+    },
+    "themeSettings": {
+      "title": "تم سایت",
+      "subtitle": "رنگ‌های فروشگاه و پنل لوکا را تعریف کنید، روی صفحه‌ی محصول ببینید و یکی را روی سایت فعال کنید.",
+      "viewStore": "مشاهده فروشگاه",
+      "newTheme": "تم جدید",
+      "liveShort": "روی سایت",
+      "activeEyebrow": "تمی که مشتریان اکنون می‌بینند",
+      "liveHint": "این رنگ‌ها هم در فروشگاه و هم در همین پنل استفاده می‌شوند. هر تغییری پس از ذخیره روی سایت می‌نشیند.",
+      "edit": "ویرایش",
+      "editNamed": "ویرایش تم {name}",
+      "duplicate": "تکثیر",
+      "noActiveTitle": "هیچ تمی فعال نیست",
+      "noActiveHint": "فروشگاه فعلاً با پالت پیش‌فرض لوکا (زمینه‌ی سفید، متن تیره و آبی سرمه‌ای) نمایش داده می‌شود. یکی از تم‌های زیر را فعال کنید یا تم تازه‌ای بسازید.",
+      "allThemes": "همه‌ی تم‌ها",
+      "count": "{count} تم",
+      "themeId": "تم شماره {id}",
+      "activate": "فعال‌سازی روی سایت",
+      "isLive": "روی سایت است",
+      "working": "لطفاً صبر کنید…",
+      "activated": "تم «{name}» روی سایت فعال شد.",
+      "deleted": "تم «{name}» حذف شد.",
+      "actionFailed": "انجام عملیات ناموفق بود. دوباره تلاش کنید.",
+      "confirmDelete": "این تم حذف شود؟",
+      "cancel": "انصراف",
+      "delete": "حذف",
+      "cannotDeleteActive": "تم فعال را نمی‌توان حذف کرد؛ ابتدا تم دیگری را فعال کنید.",
+      "newTileTitle": "تم جدید",
+      "newTileHint": "از پالت روز یا شب شروع کنید و رنگ‌ها را روی پیش‌نمایش صفحه‌ی محصول تنظیم کنید.",
+      "loadError": "بارگذاری تم‌ها ناموفق بود. اتصال API را بررسی کنید.",
+      "retry": "تلاش دوباره",
+      "createTitle": "تم جدید",
+      "editTitle": "ویرایش تم",
+      "studioSubtitle": "رنگ‌ها را تغییر دهید؛ پیش‌نمایش صفحه‌ی محصول همزمان به‌روز می‌شود.",
+      "back": "بازگشت",
+      "reset": "بازنشانی",
+      "save": "ذخیره",
+      "saving": "در حال ذخیره…",
+      "saveShortcut": "ذخیره (Ctrl+S)",
+      "saved": "تم ذخیره شد.",
+      "savedLive": "تم ذخیره شد و روی سایت اعمال می‌شود.",
+      "saveFailed": "ذخیره‌ی تم ناموفق بود.",
+      "unsavedLong": "تغییرات ذخیره نشده‌اند",
+      "noChanges": "تغییری ایجاد نشده",
+      "copyName": "{name} (کپی)",
+      "tabColors": "رنگ‌ها",
+      "tabPreview": "پیش‌نمایش",
+      "nameLabel": "نام تم",
+      "namePlaceholder": "مثلاً: کلینیک روشن",
+      "nameHelp": "فقط برای شناسایی در پنل؛ به مشتری نمایش داده نمی‌شود.",
+      "nameRequired": "نام تم الزامی است.",
+      "presetsTitle": "نقطه‌ی شروع",
+      "presetsHint": "همه‌ی رنگ‌ها با پالت انتخابی جایگزین می‌شوند؛ با «بازنشانی» به حالت قبل برمی‌گردید.",
+      "presets": {
+        "day": "روز (پیش‌فرض لوکا)",
+        "night": "شب"
+      },
+      "groups": {
+        "brand": {
+          "title": "برند",
+          "hint": "رنگ تأکید لوکا برای نوار اعلان و دکمه‌های اصلی، و رنگ جوهری برای دکمه‌های تیره."
+        },
+        "page": {
+          "title": "صفحه و متن",
+          "hint": "زمینه‌ی سفید، بخش‌های کاغذی، خط‌های نازک و متن‌ها؛ پنل مدیریت هم از همین‌ها استفاده می‌کند."
+        },
+        "status": {
+          "title": "پیام‌های وضعیت",
+          "hint": "اعلان‌های موفقیت، خطا، هشدار و اطلاع‌رسانی."
+        }
+      },
+      "fields": {
+        "primaryColor": {
+          "label": "رنگ اصلی",
+          "help": "نوار اعلان، دکمه‌های اصلی و لینک‌ها"
+        },
+        "secondaryColor": {
+          "label": "رنگ جوهری",
+          "help": "دکمه‌های تیره مثل «عضویت» و جزئیات پررنگ"
+        },
+        "highlightColor": {
+          "label": "رنگ تأکید",
+          "help": "نشان‌ها، برچسب‌های کوچک و جزئیات تزئینی"
+        },
+        "neutralColor": {
+          "label": "رنگ کاغذی",
+          "help": "پس‌زمینه‌ی بخش‌هایی مثل خبرنامه"
+        },
+        "successColor": {
+          "label": "رنگ موفقیت",
+          "help": "پیام‌های موفق"
+        },
+        "errorColor": {
+          "label": "رنگ خطا",
+          "help": "خطاها و تخفیف‌ها"
+        },
+        "warningColor": {
+          "label": "رنگ هشدار",
+          "help": "هشدارها"
+        },
+        "infoColor": {
+          "label": "رنگ اطلاع‌رسانی",
+          "help": "پیام‌های اطلاعاتی"
+        },
+        "surfaceColor": {
+          "label": "زمینه‌ی صفحه",
+          "help": "پس‌زمینه‌ی اصلی سایت، کارت‌ها و پنل"
+        },
+        "surfaceMutedColor": {
+          "label": "زمینه‌ی ملایم",
+          "help": "قاب عکس محصولات، فوتر و منوی کناری پنل"
+        },
+        "borderColor": {
+          "label": "خط و حاشیه",
+          "help": "خط‌های جداکننده و حاشیه‌ی کارت‌ها"
+        },
+        "textColor": {
+          "label": "رنگ متن",
+          "help": "متن اصلی و تیترها"
+        },
+        "textMutedColor": {
+          "label": "متن کم‌رنگ",
+          "help": "توضیحات، برچسب‌ها و متن‌های فرعی"
+        }
+      },
+      "edited": "تغییر کرده",
+      "changedFrom": "مقدار قبلی {hex}",
+      "hexOf": "کد رنگ {label}",
+      "revertColor": "بازگرداندن این رنگ",
+      "livePreview": "پیش‌نمایش صفحه‌ی محصول",
+      "deviceDesktop": "دسکتاپ",
+      "deviceMobile": "موبایل",
+      "previewHint": "نشانگر را روی یک رنگ نگه دارید تا جاهایی که به کار رفته در پیش‌نمایش مشخص شود.",
+      "fontTitle": "فونت",
+      "fontHint": "فونت متن‌ها و فونت تیترهای سایت را جدا انتخاب کنید. فونت‌ها روی سرور خود سایت میزبانی می‌شوند و فقط فونت‌های انتخاب‌شده برای بازدیدکننده دانلود می‌شوند.",
+      "fontTargets": {
+        "body": "متن",
+        "heading": "تیترها"
+      },
+      "fontHeadingSample": "راهنمای انتخاب لوپ",
+      "fontSample": "لوپ دندانپزشکی لوکا با بزرگنمایی ۳٫۵ برابر",
+      "fontCurrent": "انتخاب‌شده",
+      "fontCategories": {
+        "general": "عمومی",
+        "formal": "رسمی",
+        "fancy": "فانتزی و تزئینی"
+      },
+      "contrastTitle": "خوانایی",
+      "contrastHint": "کنتراست جفت‌رنگ‌هایی که در سایت کنار هم می‌آیند، بر اساس استاندارد WCAG AA.",
+      "contrastScore": "{passed} از {total} مورد قبول",
+      "sample": "آب",
+      "ratio": "{value} به ۱ (حداقل {min})",
+      "pass": "قبول",
+      "fail": "ضعیف",
+      "checks": {
+        "body": "متن روی زمینه",
+        "muted": "متن کم‌رنگ روی زمینه",
+        "paper": "متن روی زمینه‌ی ملایم",
+        "button": "نوشته‌ی سفید دکمه‌ی اصلی",
+        "ink": "نوشته‌ی سفید دکمه‌ی جوهری",
+        "link": "لینک روی زمینه",
+        "error": "پیام خطا روی زمینه"
+      },
+      "preview": {
+        "announcement": "مشاوره تخصصی برای انتخاب لوپ مناسب",
+        "announcementLink": "رزرو وقت",
+        "dealers": "نمایندگی‌ها",
+        "contact": "تماس با ما",
+        "nav1": "محصولات",
+        "nav2": "دسته‌بندی‌ها",
+        "nav3": "برندها",
+        "nav4": "مقالات",
+        "nav5": "لیست قیمت",
+        "crumbs": "خانه / لوپ‌ها / لوپ TTL گالیله‌ای",
+        "eyebrow": "LUCA · مجموعه‌ی TTL",
+        "productTitle": "لوپ TTL گالیله‌ای",
+        "price": "[قیمت] تومان",
+        "productText": "لوپ سبک با عدسی داخل شیشه، ساخته‌شده بر اساس فاصله‌ی مردمک و فاصله‌ی کاری شما.",
+        "magnification": "بزرگ‌نمایی",
+        "frameColor": "رنگ فریم",
+        "addToCart": "افزودن به سبد خرید",
+        "bookFitting": "رزرو وقت اندازه‌گیری",
+        "specs": "مشخصات",
+        "spec1Label": "بزرگ‌نمایی",
+        "spec1Value": "[…x]",
+        "spec2Label": "فاصله‌ی کاری",
+        "spec2Value": "[… میلی‌متر]",
+        "spec3Label": "وزن",
+        "spec3Value": "[… گرم]",
+        "alertSuccess": "به سبد خرید اضافه شد",
+        "alertError": "این مدل فعلاً موجود نیست",
+        "alertWarning": "تعداد محدود باقی مانده",
+        "alertInfo": "برای اندازه‌گیری وقت بگیرید",
+        "newsletter": "تازه‌ترین‌های لوکا",
+        "newsletterText": "معرفی مدل‌های جدید و راهنماهای تخصصی",
+        "subscribe": "عضویت",
+        "copyright": "© LUCA"
+      },
+      "textSizeTitle": "اندازه متن",
+      "textSizeHint": "اندازه و ضخامت متن‌ها و تیترهای سایت را جدا انتخاب کنید؛ «دلخواه» اندازه‌ی دقیق به پیکسل می‌گیرد. بقیه‌ی اندازه‌ها و وزن‌ها به همان نسبت جابه‌جا می‌شوند. پیش‌نمایش همین حالا تغییر می‌کند.",
+      "textSizes": {
+        "small": "کوچک",
+        "medium": "متوسط",
+        "large": "بزرگ",
+        "custom": "دلخواه (پیکسل)"
+      },
+      "textSizePxBody": "اندازه‌ی متن پایه",
+      "textSizePxHeading": "اندازه‌ی تیتر اصلی (H1)",
+      "textSizePxRange": "بین {min} تا {max} پیکسل؛ اندازه‌ی فعلی سایت {base} پیکسل است و بقیه‌ی اندازه‌ها به همان نسبت تغییر می‌کنند.",
+      "customFontBadge": "آپلودی",
+      "addFontTitle": "افزودن فونت",
+      "addFontHint": "فایل فونت (woff2، woff، ttf یا otf، حداکثر ۵ مگابایت) و نام آن را وارد کنید. فونت در همین دسته قرار می‌گیرد و برای متن و تیتر قابل انتخاب است.",
+      "addFontFile": "فایل فونت",
+      "addFontNameFa": "نام فارسی فونت",
+      "addFontNameEn": "نام انگلیسی فونت",
+      "addFontSubmit": "آپلود فونت",
+      "addFontUploading": "در حال آپلود…",
+      "addFontCancel": "انصراف",
+      "addFontDone": "فونت اضافه شد؛ حالا می‌توانید آن را انتخاب کنید.",
+      "addFontFailed": "آپلود فونت ناموفق بود",
+      "addFontNeedFile": "فایل فونت را انتخاب کنید",
+      "addFontNeedName": "نام فونت را وارد کنید",
+      "fontWeightTitle": "ضخامت",
+      "fontWeightSample": "آب",
+      "fontWeights": {
+        "100": "خیلی نازک",
+        "200": "نازک‌تر",
+        "300": "نازک",
+        "400": "معمولی",
+        "500": "متوسط",
+        "600": "نیمه‌ضخیم",
+        "700": "ضخیم",
+        "800": "خیلی ضخیم",
+        "900": "سیاه"
+      }
+    },
+    "dashboard": "داشبورد",
+    "dashboardTitle": "پنل مدیریت",
+    "dashboardSubtitle": "مدیریت محتوا، موجودیت‌ها و تنظیمات فروشگاه",
+    "welcome": "خوش آمدید",
+    "quickAccess": "دسترسی سریع",
+    "quickAccessHint": "از منوی کناری یک موجودیت را انتخاب کنید یا از میان‌برهای زیر استفاده کنید.",
+    "openStore": "مشاهده فروشگاه",
+    "entities": "موجودیت‌ها",
+    "listTitle": "فهرست {entity}",
+    "listSubtitle": "مدیریت، جستجو و ویرایش رکوردها",
+    "totalRecords": "{count} رکورد",
+    "selectedCount": "{count} مورد انتخاب شده",
+    "noData": "هیچ داده‌ای یافت نشد",
+    "noDataHint": "هنوز رکوردی ثبت نشده یا نتیجه جستجو خالی است.",
+    "listLoadError": "بارگذاری لیست ادمین ناموفق بود. اتصال API را بررسی کنید.",
+    "formLoadError": "پیکربندی فرم برای این موجودیت یافت نشد.",
+    "formParseError": "پیکربندی فرم نامعتبر است.",
+    "createTitle": "ایجاد {entity}",
+    "editTitle": "ویرایش {entity}",
+    "formSubtitleCreate": "اطلاعات را تکمیل و ذخیره کنید",
+    "formSubtitleEdit": "تغییرات را اعمال و ذخیره کنید",
+    "page": "صفحه {page} از {total}",
+    "pageSize": "نمایش در صفحه",
+    "collapseMenu": "جمع کردن منو",
+    "expandMenu": "باز کردن منو",
+    "openMenu": "باز کردن منوی ادمین",
+    "closeMenu": "بستن منوی ادمین",
+    "menuEmpty": "منویی برای نمایش وجود ندارد",
+    "excel": {
+      "dropHere": "فایل اکسل را اینجا رها کنید یا برای انتخاب کلیک کنید",
+      "onlyXlsx": "فقط فایل xlsx پذیرفته می‌شود",
+      "changeFile": "برای تغییر فایل کلیک کنید",
+      "uploading": "در حال ارسال فایل... {percent}٪",
+      "processing": "در حال بررسی و ثبت ردیف‌ها...",
+      "processingHint": "فایل‌های بزرگ کمی زمان می‌برند؛ پنجره را نبندید",
+      "stepUpload": "ارسال فایل",
+      "stepProcess": "بررسی و ثبت",
+      "elapsed": "{seconds} ثانیه",
+      "groupLabel": "عملیات اکسل",
+      "export": "خروجی اکسل",
+      "exportSelected": "خروجی اکسل ({count} مورد)",
+      "exporting": "در حال آماده‌سازی...",
+      "import": "ورود از اکسل",
+      "template": "دریافت قالب خام",
+      "templateHint": "فایل اکسل خالی با ساختار ستون‌ها، لیست‌های انتخابی و راهنما",
+      "downloadError": "دریافت فایل اکسل ناموفق بود",
+      "importTitle": "ورود اطلاعات {entity} از اکسل",
+      "importHint": "ردیف‌هایی که «شناسه» دارند ویرایش و بقیه به عنوان رکورد جدید اضافه می‌شوند. ساختار فایل را از",
+      "sheetsHint": "این فایل می‌تواند شامل شیت‌های {sheets} باشد.",
+      "chooseFile": "انتخاب فایل xlsx",
+      "noFile": "فایلی انتخاب نشده",
+      "dryRun": "فقط بررسی کن (هیچ تغییری ذخیره نشود)",
+      "allOrNothing": "اگر حتی یک ردیف خطا داشت، هیچ تغییری ذخیره نشود (پیشنهادی)",
+      "partial": "ردیف‌های سالم ذخیره شوند و فقط ردیف‌های خطادار رد شوند",
+      "submit": "شروع ورود اطلاعات",
+      "validate": "بررسی فایل",
+      "importing": "در حال پردازش...",
+      "importError": "ورود اطلاعات ناموفق بود",
+      "importDone": "اطلاعات با موفقیت ذخیره شد",
+      "close": "بستن",
+      "sheet": "شیت",
+      "row": "ردیف",
+      "error": "خطا",
+      "created": "جدید",
+      "updated": "ویرایش",
+      "failed": "خطا",
+      "dryRunOk": "بررسی شد: فایل بدون خطاست و آماده‌ی ورود است.",
+      "dryRunErrors": "بررسی شد: خطاهای زیر را اصلاح کنید.",
+      "rolledBack": "به دلیل خطا، هیچ تغییری ذخیره نشد. خطاها را اصلاح و دوباره ارسال کنید.",
+      "committed": "همه‌ی ردیف‌ها ذخیره شدند.",
+      "committedPartial": "ردیف‌های سالم ذخیره شدند؛ ردیف‌های زیر رد شدند."
+    },
+    "dock": {
+      "aria": "میان‌برهای سریع مدیریت",
+      "orders": "سفارش‌ها",
+      "products": "محصولات",
+      "discounts": "تخفیف‌ها",
+      "panel": "پنل"
+    },
+    "backupNav": "بک‌آپ",
+    "backupTitle": "بک‌آپ و بازیابی",
+    "backupSubtitle": "بک‌آپ کامل (دیتابیس + تصاویر و فایل‌ها)، بازیابی از فایل و بک‌آپ خودکار",
+    "backupCreate": "ایجاد بک‌آپ جدید",
+    "backupCreating": "در حال ایجاد بک‌آپ...",
+    "backupCreateSuccess": "بک‌آپ با موفقیت ایجاد شد",
+    "backupCreateError": "ایجاد بک‌آپ ناموفق بود",
+    "backupLoadError": "بارگذاری فهرست بک‌آپ‌ها ناموفق بود",
+    "backupCount": "تعداد بک‌آپ‌ها",
+    "backupCountHint": "فایل‌های ذخیره شده روی سرور",
+    "backupHintTitle": "نکته امنیتی",
+    "backupHint": "بک‌آپ کامل شامل اطلاعات کاربران است؛ فایل دانلودشده را جای امن نگه دارید. فقط SuperAdmin می‌تواند بازیابی کند.",
+    "backupListTitle": "فهرست بک‌آپ‌ها",
+    "backupListSubtitle": "جدیدترین فایل‌ها در بالای لیست قرار دارند",
+    "backupRefresh": "بروزرسانی",
+    "backupEmpty": "هنوز بک‌آپی وجود ندارد",
+    "backupEmptyHint": "با دکمه «ایجاد بک‌آپ جدید» اولین نسخه را بسازید.",
+    "backupFileName": "نام فایل",
+    "backupCreatedAt": "زمان ایجاد",
+    "backupSize": "حجم",
+    "backupDownload": "دانلود",
+    "backupDownloadSuccess": "دانلود آغاز شد",
+    "backupDownloadError": "دانلود بک‌آپ ناموفق بود",
+    "backupDeleteConfirm": "آیا از حذف «{file}» مطمئن هستید؟",
+    "backupDeleteSuccess": "بک‌آپ حذف شد",
+    "backupDeleteError": "حذف بک‌آپ ناموفق بود",
+    "backupFullCreate": "بک‌آپ کامل (دیتابیس + تصاویر)",
+    "backupFullCreating": "در حال ساخت بک‌آپ کامل...",
+    "backupFullCreateSuccess": "بک‌آپ کامل ساخته شد",
+    "backupKindDatabase": "فقط دیتابیس",
+    "backupKindFull": "کامل",
+    "backupKindAuto": "خودکار",
+    "backupKindPreRestore": "پیش از بازیابی",
+    "backupKind": "نوع",
+    "backupRestoreTitle": "بازیابی از فایل",
+    "backupRestoreSubtitle": "فایل بک‌آپ کامل (zip) را انتخاب کنید تا دیتابیس و تصاویر به همان وضعیت برگردند. برای انتقال به سرور جدید نیز از همین بخش استفاده کنید.",
+    "backupRestoreWarning": "هشدار: همه‌ی داده‌های فعلی (دیتابیس و تصاویر) با محتوای فایل جایگزین می‌شود. پیش از شروع، یک نسخه‌ی ایمنی خودکار از وضعیت فعلی ساخته می‌شود.",
+    "backupRestoreChoose": "انتخاب فایل بک‌آپ (.zip)",
+    "backupRestoreConfirmLabel": "برای تأیید، عبارت RESTORE را تایپ کنید",
+    "backupRestoreButton": "بازیابی",
+    "backupRestoreUploading": "در حال ارسال فایل... {percent}٪",
+    "backupRestoreProcessing": "در حال بازیابی؛ لطفاً صفحه را نبندید...",
+    "backupRestoreSuccess": "بازیابی انجام شد. نسخه‌ی ایمنی: {file}",
+    "backupRestoreError": "بازیابی ناموفق بود",
+    "backupRestoreSuperAdminOnly": "بازیابی فقط برای SuperAdmin فعال است.",
+    "backupAutoTitle": "بک‌آپ خودکار",
+    "backupAutoSubtitle": "هر روز یک بک‌آپ کامل روی سرور ساخته و نسخه‌های قدیمی حذف می‌شود.",
+    "backupAutoEnabled": "فعال‌سازی بک‌آپ خودکار روزانه",
+    "backupAutoHour": "ساعت اجرا (UTC)",
+    "backupAutoHourHint": "ساعت ۲۳ UTC تقریباً ۰۲:۳۰ بامداد به وقت ایران است.",
+    "backupAutoKeep": "تعداد نسخه‌های نگهداری‌شده",
+    "backupAutoSave": "ذخیره تنظیمات",
+    "backupAutoSaved": "تنظیمات ذخیره شد",
+    "backupAutoSaveError": "ذخیره تنظیمات ناموفق بود",
+    "backupAutoLast": "آخرین بک‌آپ خودکار",
+    "backupNever": "هنوز انجام نشده",
+    "backupNeverDownloaded": "هنوز هیچ بک‌آپ کاملی را روی سیستم خودتان دانلود نکرده‌اید. بک‌آپ‌هایی که فقط روی همین سرور بمانند با خرابی سرور از بین می‌روند؛ یک نسخه را دانلود کنید.",
+    "backupDownloadReminder": "آخرین دانلود بک‌آپ کامل {days} روز پیش بوده است. یک نسخه‌ی تازه را روی سیستم خودتان ذخیره کنید.",
+    "backupLastDownloaded": "آخرین دانلود",
+    "seedTitle": "داده‌های نمونه (Seed)",
+    "seedSubtitle": "داده‌های سیستمی هنگام استارت خودکار می‌شوند؛ کاتالوگ نمونه را از اینجا اعمال کنید.",
+    "seedAutoNote": "خودکار: Roles و EntityConfig (Migration) + کاربر ادمین در صورت تنظیم Seed:AdminPassword",
+    "seedFilesTitle": "فایل‌های SQL نمونه",
+    "seedUnavailable": "فایل seed در ایمیج موجود نیست",
+    "seedApply": "اعمال داده نمونه",
+    "seedApplyClean": "پاک‌سازی و اعمال مجدد",
+    "seedApplying": "در حال اعمال seed...",
+    "seedApplySuccess": "داده نمونه اعمال شد",
+    "seedApplyError": "اعمال seed ناموفق بود",
+    "seedConfirmClean": "جداول نمونه truncate و دوباره seed می‌شوند. ادامه؟",
+    "seedConfirm": "داده نمونه به پایگاه‌داده اضافه شود؟",
+    "seoDashboardTitle": "داشبورد پیشرفته سئو",
+    "seoDashboardSubtitle": "مدیریت متمرکز metadata، canonical، robots و اولویت صفحات برای کل فروشگاه",
+    "seoManageRules": "مدیریت قوانین سئو",
+    "seoRulesCount": "قوانین فعال",
+    "seoRulesHint": "قواعد صفحه و الگوهای SEO از همین بخش کنترل می‌شوند.",
+    "seoStrategyTitle": "کنترل متمرکز SEO",
+    "seoStrategyHint": "برای پروژه‌های پیشرفته، نگهداری ruleهای SEO در دیتابیس باعث می‌شود بدون deploy مجدد بتوانید metadata مسیرها، صفحه‌های لیستی و جزئیات را به‌روزرسانی کنید.",
+    "seoQuickActions": "اقدام‌های کلیدی",
+    "seoQuickActionsHint": "از این میان‌برها برای مدیریت ruleها و صفحه‌های مهم سئو استفاده کنید.",
+    "seoWorkflowTitle": "گردش‌کار پیشنهادی",
+    "seoWorkflowDescription": "ابتدا یک rule دقیق یا prefix برای مسیر هدف بسازید، سپس محتوای صفحه را در موجودیت مربوطه تکمیل کنید و در نهایت خروجی metadata را در build و صفحه نهایی بررسی کنید.",
+    "seoWorkflow": {
+      "step1Title": "1. تعریف Rule",
+      "step1Desc": "برای مسیرهایی مثل `products`، `blog` یا `products/some-slug` قانون مجزا بسازید.",
+      "step2Title": "2. تکمیل محتوا",
+      "step2Desc": "برای موجودیت‌هایی مثل `blogs` و `products` عنوان، توضیحات و تصویر مناسب را تکمیل کنید.",
+      "step3Title": "3. اعتبارسنجی خروجی",
+      "step3Desc": "بعد از ذخیره، canonical، robots و Open Graph را در خروجی صفحه و build بررسی کنید."
+    },
+    "seoCards": {
+      "rules": {
+        "title": "قوانین متمرکز SEO",
+        "description": "مدیریت title، description، keywords، canonical و robots برای مسیرها و الگوهای مسیر."
+      },
+      "blogs": {
+        "title": "SEO مقالات",
+        "description": "بهینه‌سازی محتوای بلاگ، slug و فیلدهای متای مقاله‌ها."
+      },
+      "products": {
+        "title": "SEO محصولات",
+        "description": "بازبینی عنوان، توضیحات و تصویر شاخص صفحه‌های محصول."
+      },
+      "categories": {
+        "title": "SEO دسته‌بندی‌ها",
+        "description": "هدایت سئوی صفحه‌های لیستی و ساختار دسته‌بندی‌ها."
+      },
+      "brands": {
+        "title": "SEO برندها",
+        "description": "کنترل سئوی landing page برندها و صفحات فهرست برند."
+      }
+    }
+  },
+  "register": {
+    "enter": "ورود",
+    "enterEmail": "برای ورود ایمیل خود را وارد کنید",
+    "email": "ایمیل",
+    "emailPlaceHolder": "m@example.com",
+    "password": "پسوورد",
+    "forgotPassword": "رمز عبور خود را فراموش کردید ؟ ",
+    "signUp": "ثبت نام",
+    "dotHaveAnyAccount": "اکانتی ندارید ؟",
+    "startSignUp": "برای ثبت نام ایمیل خود را وارد کنید",
+    "emailRequired": "ایمیل الزامی است",
+    "invalidEmail": "فرمت ایمیل صحیح نیست",
+    "phoneRequired": "شماره موبایل الزامی است",
+    "invalidPhone": "فرمت شماره صحیح نیست (۰۹xxxxxxxxx)",
+    "passwordRequired": "رمز عبور الزامی است",
+    "passwordMinLength": "حداقل ۸ کاراکتر",
+    "fullNameRequired": "نام کامل الزامی است",
+    "fullName": "نام و نام خانوادگی",
+    "userDescription": "توضیحات کاربر",
+    "phoneNumber": "شماره تلفن همراه",
+    "phoneNumberPlaceholder": "********09",
+    "register": "ثبت نام",
+    "havingAccount": "من اکانت دارم",
+    "rememberMe": "مرا به خاطر بسپار",
+    "userImage": "عکس کاربر",
+    "success": "ثبت نام با موفقیت انجام شد",
+    "failed": "ثبت نام با خطا مواجه شد",
+    "minTwoChars": "حداقل ۲ کاراکتر وارد کنید",
+    "minTwoCharsShort": "حداقل ۲ کاراکتر",
+    "registerError": "خطا در ثبت نام",
+    "connectionError": "خطای اتصال",
+    "backToLogin": "بازگشت به ورود"
+  },
+  "shoppingCart": {
+    "header": {
+      "yourCart": "سبد خرید شما",
+      "items": "اقلام",
+      "reviewBeforeCheckout": "قبل از سفارش گذاری مجددا اقلام را بررسی کنید",
+      "totalDiscount": "تخفیف کلی",
+      "shipping": "هزینه ارسال",
+      "total": "مبلغ کل",
+      "freeShippingOver": "[شرط ارسال رایگان]",
+      "checkout": "سفارش گذاری",
+      "viewCart": "مشاهده سبد خرید"
+    },
+    "ShoppingCart": "سبد خرید",
+    "ItemsInYourCart": "تعداد اقلام در سبد خرید شما",
+    "days": "روز",
+    "standardShipping": "نوع ارسال استاندارد",
+    "shippingMethod": "نوع ارسال",
+    "reviewYourCartDetailsAndShippingInformation": "لطفا جزییات سبد و نحوه ارسال را مطالعه بفرمایید",
+    "shoppingCartSummary": "جمع سبد خرید",
+    "signInToCheckout": "ورود برای ثبت سفارش",
+    "promoCode": "کد تخفیف",
+    "promoCodePlaceHolder": "کد تخفیف را وارد کنید",
+    "subTotal": "مبلغ سفارش",
+    "shipping": "هزینه ارسال",
+    "total": "مبلغ کل",
+    "freeReturns": "[مهلت بازگشت]",
+    "securePayment": "پرداخت امن",
+    "fastDelivery": "ارسال سریع",
+    "placeOrder": "سفارش گذاری",
+    "chooseAddress": "ابتدا آدرس انتخاب کنید",
+    "emptyCart": "سبد خرید شما خالی است",
+    "promoCodeSubmit": "کد تخفیف اعمال شد",
+    "discountCodeAmount": "میزان تخفیف از کد",
+    "totalDiscount": "مبلغ تخفیف محصولات"
+  },
+  "address": {
+    "addresses": "آدرس ها",
+    "addFirstAddress": "اولین آدرس خود را ثبت کنید",
+    "addNewAddress": "اضافه کردن آدرس جدید",
+    "name": "نام",
+    "phoneNumber": "شماره تماس",
+    "state": "استان",
+    "city": "شهر",
+    "fullAddress": "آدرس کامل",
+    "postalCode": "کد پستی",
+    "saveAddress": "ذخیره آدرس",
+    "cancel": "انصراف",
+    "chooseAsDefault": "انتخاب به عنوان پیشفرض",
+    "editAddress": "ویرایش آدرس"
+  },
+  "checkout": {
+    "proceedToCheckout": "ارسال به درگاه پرداخت",
+    "title": "سفارشات",
+    "landing page": "بازگشت به صفحه اصلی",
+    "invoiceNumber": "فاکتور #{number}",
+    "customer": "مشتری: {name}",
+    "grandTotal": "جمع کل",
+    "payable": "قابل پرداخت"
+  },
+  "payment": {
+    "verifying": "در حال تأیید پرداخت...",
+    "waiting": "لطفاً چند لحظه صبر کنید",
+    "redirect": "در حال انتقال به درگاه",
+    "paymentFailed": "پرداخت ناموفق بود",
+    "payment_issue": "در انجام پرداخت مشکلی پیش آمده است",
+    "what_happened": "چه اتفاقی افتاد؟",
+    "error_code": "کد خطا",
+    "payment_error": "خطای پرداخت",
+    "insufficient_funds": "موجودی کافی نیست",
+    "card_declined": "کارت رد شد",
+    "expired_card": "کارت منقضی شده است",
+    "network_error": "خطای شبکه",
+    "timeout": "زمان پرداخت به پایان رسید",
+    "solutions_title": "راه‌حل‌های پیشنهادی",
+    "retry_title": "تلاش مجدد پرداخت",
+    "retry_desc": "اطمینان حاصل کنید که اطلاعات کارت بانکی صحیح است.",
+    "alternative_title": "روش پرداخت دیگر",
+    "alternative_desc": "می‌توانید از روش پرداخت دیگری استفاده کنید.",
+    "support_title": "تماس با پشتیبانی",
+    "support_desc": "در صورت ادامه مشکل با پشتیبانی تماس بگیرید.",
+    "order_title": "سفارش شما",
+    "order_number": "شماره سفارش",
+    "failed_status": "پرداخت ناموفق",
+    "order_notice": "سفارش شما به طور موقت رزرو شده است. لطفاً ظرف ۲۴ ساعت پرداخت را تکمیل کنید.",
+    "retry_button": "تلاش مجدد پرداخت",
+    "back_to_checkout": "بازگشت به صفحه پرداخت",
+    "view_cart": "مشاهده سبد خرید",
+    "back_home": "بازگشت به خانه",
+    "final_confirm_title": "تأیید نهایی سفارش",
+    "final_confirm_desc": "لطفاً اطلاعات سفارش خود را بررسی و تأیید کنید",
+    "shipping_address": "آدرس ارسال",
+    "shipping_method": "روش ارسال",
+    "payment_method": "روش پرداخت",
+    "items_total": "جمع کالاها",
+    "shipping_cost": "هزینه ارسال",
+    "discount": "تخفیف",
+    "final_amount": "مبلغ نهایی",
+    "cancel": "انصراف",
+    "confirm_and_pay": "تأیید و پرداخت",
+    "connecting_gateway": "در حال اتصال به درگاه...",
+    "currency": "تومان"
+  },
+  "orderStatus": {
+    "pending": "در انتظار تایید",
+    "confirmed": "تایید شده",
+    "paid": "پرداخت شده",
+    "shipped": "ارسال شده",
+    "delivered": "تحویل داده شده",
+    "cancelled": "لغو شده"
+  },
+  "comments": {
+    "yourComment": "نظر شما",
+    "yourRate": "امتیاز شما"
+  },
+  "product": {
+    "suppliersTitle": "تأمین‌کنندگان این محصول",
+    "suppliersCount": "{count} تأمین‌کننده",
+    "userReviews": "نظرات کاربران",
+    "productDetails": "جزئیات محصول",
+    "description": "توضیحات",
+    "specs": "مشخصات فنی",
+    "noSpecs": "مشخصات فنی برای این محصول ثبت نشده است.",
+    "noComments": "هنوز نظری برای این محصول ثبت نشده است.",
+    "writeCommentPlaceholder": "نظر خود را بنویسید...",
+    "submitComment": "ثبت نظر",
+    "pleaseWriteComment": "لطفا نظر خود را بنویسید",
+    "pleaseEnterComment": "لطفا نظر خود را وارد کنید",
+    "brandProducts": "محصولات برند",
+    "brandSuppliers": "تامین‌کنندگان برند",
+    "brandCategories": "دسته‌بندی‌ها",
+    "tagProducts": "محصولات دسته بندی",
+    "chooseOffer": "افزودن به سبد",
+    "variantDefaultLabel": "مدل",
+    "variantGroupAria": "انتخاب {name}",
+    "supplierProducts": "محصولات این تأمین‌کننده"
+  },
+  "category": {
+    "subCategories": "زیر مجموعه این دسته بندی",
+    "noSubCategory": "زیر دسته بندی ای وجود ندارد",
+    "noCategorySupplier": "تامین کننده ای وجود ندارد",
+    "goToParent": "برو به دسته بندی والد"
+  },
+  "common": {
+    "buyNow": "خرید",
+    "seePrice": "مشاهده قیمت",
+    "moreDetails": "جزئیات بیشتر",
+    "previousImage": "تصویر قبلی",
+    "nextImage": "تصویر بعدی",
+    "viewCategory": "مشاهده دسته‌بندی",
+    "imageOf": "تصویر {n} از {total}",
+    "productsLabel": "محصولات",
+    "viewProduct": "مشاهده محصول",
+    "featured": "منتخب لوکا",
+    "loading": "در حال بارگذاری",
+    "view": "مشاهده",
+    "add": "افزودن",
+    "previous": "قبلی",
+    "next": "بعدی",
+    "price": "قیمت",
+    "currency": "تومان",
+    "rial": "ریال",
+    "tomanShort": "ت",
+    "inStock": "موجود",
+    "outOfStock": "ناموجود",
+    "lowStock": "موجودی محدود ({count})",
+    "lowStockShort": "در حد محدود",
+    "percentOff": "٪ تخفیف",
+    "specialDiscount": "تخفیف ویژه",
+    "addToCart": "افزودن به سبد",
+    "wishlist": "علاقه‌مندی",
+    "reviewsCount": "{count} نظر",
+    "votesCount": "{count} رای",
+    "quantityCount": "{count} عدد",
+    "viewBrand": "مشاهده برند",
+    "viewBrandArrow": "مشاهده برند →",
+    "viewAllProducts": "مشاهده همه محصولات",
+    "noProductsFound": "محصولی پیدا نشد",
+    "primary": "اصلی",
+    "ratingAria": "امتیاز {value} از {max}",
+    "fiveOfFive": "۵ از ۵",
+    "pleaseSelect": "لطفا انتخاب کنید...",
+    "saveFailed": "ذخیره انجام نشد. لطفاً دوباره تلاش کنید.",
+    "fieldTooLong": "حداکثر {max} کاراکتر مجاز است (الان {actual} کاراکتر)",
+    "fieldsTooLong": "متن این فیلدها از حد مجاز طولانی‌تر است: {fields}",
+    "fieldTooLongGeneric": "متن یکی از فیلدها از حد مجاز طولانی‌تر است.",
+    "fieldRequired": "این فیلد الزامی است",
+    "fieldInvalid": "مقدار این فیلد معتبر نیست",
+    "fieldsInvalid": "لطفاً این فیلدها را بررسی کنید: {fields}",
+    "noOptionsFound": "گزینه ای پیدا نشد",
+    "underDevelopment": "این قسمت در حال توسعه میباشد",
+    "scrollPrev": "اسکرول به قبلی",
+    "scrollNext": "اسکرول به بعدی",
+    "addToCartAria": "افزودن {name} به سبد",
+    "priceColon": "قیمت : {price}",
+    "supplier": "تامین‌کننده",
+    "roleLabel": "نقش: {role}",
+    "viewSupplier": "مشاهده تامین‌کننده →",
+    "supplierNotFound": "تأمین‌کننده پیدا نشد",
+    "viewSupplierPlain": "مشاهده تأمین‌کننده",
+    "brand": "برند"
+  },
+  "landing": {
+    "brandsTitle": "برندها",
+    "brandsSubtitle": "برندهای موجود در فروشگاه",
+    "viewAllBrands": "مشاهده همه برند ها",
+    "categoriesTitle": "خرید بر اساس دسته‌بندی",
+    "viewAllCategories": "مشاهده همه دسته بندی ها",
+    "specialOfferTitle": "پیشنهاد ویژه امروز",
+    "specialOfferDesc": "فقط تا پایان امروز می‌توانید این محصولات را با تخفیف ویژه تهیه کنید.",
+    "noOffers": "پیشنهادی موجود نیست",
+    "selectedProducts": "منتخب لوکا",
+    "bestSellers": "پرفروش‌ترین‌ها",
+    "newest": "جدیدترین‌ها",
+    "discounters": "تخفیف‌دارها",
+    "slideDetailsAria": "مشاهده جزئیات اسلاید {index}",
+    "goToSlideAria": "رفتن به اسلاید {index}",
+    "prevSlide": "اسلاید قبلی",
+    "nextSlide": "اسلاید بعدی",
+    "slideCta": "مشاهده",
+    "specialOfferEyebrow": "پیشنهاد ویژه",
+    "features": {
+      "ergonomics": {
+        "eyebrow": "ارگونومی",
+        "title": "گردن صاف، نگاه مستقیم",
+        "body": "زاویه شیب لوپ‌های لوکا برای هر دندانپزشک جداگانه تنظیم می‌شود تا در طول روز کاری، سر و گردن در وضعیت طبیعی بماند.",
+        "cta": "آشنایی با لوپ‌های ارگونومیک"
+      },
+      "optics": {
+        "eyebrow": "اپتیک",
+        "title": "وضوح، از مرکز تا لبه",
+        "body": "عدسی‌های چندلایه تصویری روشن و بدون اعوجاج در تمام میدان دید می‌دهند؛ رنگ بافت همان‌طور که هست دیده می‌شود.",
+        "cta": "داستان لوکا"
+      }
+    },
+    "experience": {
+      "title": "تجربه لوکا",
+      "appointment": {
+        "title": "رزرو وقت مشاوره",
+        "body": "در جلسه حضوری یا آنلاین، کارشناس لوکا بزرگ‌نمایی، فاصله کاری و فریم مناسب شما را پیشنهاد می‌دهد.",
+        "cta": "ثبت درخواست"
+      },
+      "fitting": {
+        "title": "اندازه‌گیری و ساخت سفارشی",
+        "body": "فاصله مردمک‌ها و زاویه دید شما اندازه‌گیری می‌شود تا لوپ دقیقاً برای چهره شما ساخته شود.",
+        "cta": "پرسش‌های متداول درباره اندازه‌گیری و ساخت لوپ"
+      },
+      "contact": {
+        "title": "تماس با ما",
+        "body": "برای راهنمایی خرید، پیگیری سفارش یا خدمات پس از فروش با ما در ارتباط باشید.",
+        "cta": "راه‌های تماس و همکاری با لوکا"
+      }
+    },
+    "contactBand": {
+      "title": "تازه‌ترین‌های لوکا",
+      "body": "برای اطلاع از مدل‌های جدید و دریافت مشاوره، درخواست تماس ثبت کنید.",
+      "cta": "ثبت درخواست تماس"
+    },
+    "homeSliderLabel": "اسلایدر صفحه اصلی"
+  },
+  "order": {
+    "myOrders": "سفارشات من",
+    "selectOrder": "یک سفارش انتخاب کنید",
+    "orderDetails": "جزئیات سفارش",
+    "status": "وضعیت:",
+    "orderNumber": "شماره سفارش: {id}",
+    "itemsSummary": "{count} کالا • مجموع {total} {currency}",
+    "date": "تاریخ: {date}",
+    "orderTotal": "جمع سفارش",
+    "shippingCost": "هزینه ارسال",
+    "discount": "تخفیف",
+    "finalAmount": "مبلغ نهایی"
+  },
+  "captcha": {
+    "placeholder": "کد بالا را وارد کنید",
+    "refresh": "دریافت کد جدید"
+  },
+  "uploader": {
+    "placeholder": "Drag & Drop یا کلیک کنید تا تصویر انتخاب شود",
+    "previousNotFound": "تصویر قبلی یافت نشد؛ لطفاً دوباره آپلود کنید",
+    "videoType": "فقط ویدیوی MP4 یا WebM مجاز است.",
+    "videoSize": "حجم ویدیو باید حداکثر ۳۰ مگابایت باشد.",
+    "videoPlaceholder": "انتخاب ویدیو (mp4 / webm)"
+  },
+  "countdown": {
+    "expired": "زمان تخفیف به پایان رسیده",
+    "hours": "ساعت",
+    "minutes": "دقیقه",
+    "seconds": "ثانیه"
+  },
+  "promotion": {
+    "yaldaBanner": "[متن بنر مناسبتی]"
+  },
+  "storefront": {
+    "faqTitle": "سوالات متداول",
+    "relatedLinks": "مسیرهای مرتبط",
+    "seoSummary": "خلاصه سئو"
+  },
+  "navbar": {
+    "loginRegister": "ورود/ ثبت نام",
+    "systemTraining": "آموزش سیستم",
+    "aboutUs": "درباره ما",
+    "customers": "مشتریان",
+    "products": "محصولات"
+  },
+  "animatedLanding": {
+    "brandName": "آرین سیستم",
+    "software": "نرم افزار"
+  },
+  "paymentSuccess": {
+    "title": "پرداخت موفقیت‌آمیز بود!",
+    "subtitle": "سفارش شما با موفقیت ثبت شد. جزئیات خرید در زیر آمده است.",
+    "thankYou": "سپاس از خرید شما!",
+    "thankYouDesc": "سفارش شما با شماره {orderId} ثبت شد. یک ایمیل تأیید به آدرس ایمیل شما ارسال شده است.",
+    "orderDetails": "جزئیات سفارش",
+    "orderNumber": "شماره سفارش",
+    "orderDate": "تاریخ سفارش",
+    "transactionId": "شماره تراکنش",
+    "amountPaid": "مبلغ پرداخت‌شده",
+    "nextSteps": "مراحل بعدی",
+    "processing": "آماده‌سازی سفارش",
+    "processingDesc": "سفارش شما در حال آماده‌سازی است و به زودی ارسال می‌شود.",
+    "trackOrder": "پیگیری سفارش",
+    "trackOrderDesc": "می‌توانید از طریق پنل کاربری سفارش خود را پیگیری کنید.",
+    "actions": "اقدامات",
+    "printReceipt": "چاپ رسید",
+    "downloadInvoice": "دانلود فاکتور",
+    "viewOrders": "مشاهده سفارشات",
+    "backHome": "بازگشت به خانه",
+    "needHelp": "نیاز به کمک دارید؟",
+    "needHelpDesc": "تیم پشتیبانی ما ۲۴/۷ آماده پاسخگویی به سوالات شماست.",
+    "contactSupport": "تماس با پشتیبانی →"
+  },
+  "faqPage": {
+    "title": "سوالات متداول",
+    "description": "پاسخ پرسش‌های پرتکرار درباره خرید، ارسال و پرداخت در لوکا.",
+    "empty": "هنوز سوالی ثبت نشده است",
+    "emptyHint": "به‌زودی پاسخ پرسش‌های پرتکرار اینجا قرار می‌گیرد.",
+    "viewAll": "مشاهده همه سوالات",
+    "contactHint": "پاسخ سوال خود را پیدا نکردید؟ اطلاعات تماس خود را ثبت کنید تا با شما تماس بگیریم.",
+    "contactCta": "ثبت درخواست تماس",
+    "contactTitle": "پاسخ خود را پیدا نکردید؟"
+  },
+  "cooperationPage": {
+    "title": "همکاری با ما",
+    "description": "اگر تمایل به همکاری با لوکا دارید (تأمین کالا، خرید عمده یا نمایندگی فروش)، فرم زیر را تکمیل کنید تا در اولین فرصت با شما تماس بگیریم.",
+    "metaDescription": "فرم همکاری با فروشگاه لوکا برای تأمین‌کنندگان، خریداران عمده و نمایندگان فروش.",
+    "fields": {
+      "firstName": "نام",
+      "lastName": "نام خانوادگی",
+      "phoneNumber": "شماره تماس",
+      "email": "ایمیل (اختیاری)",
+      "address": "آدرس",
+      "preferredContactTime": "زمان مناسب برای تماس (اختیاری)",
+      "preferredContactTimePlaceholder": "مثلاً: شنبه تا چهارشنبه، ۹ تا ۱۳",
+      "message": "توضیحات (اختیاری)",
+      "messagePlaceholder": "زمینه همکاری و توضیحات خود را بنویسید"
+    },
+    "submit": "ثبت درخواست",
+    "submitting": "در حال ارسال...",
+    "privacyNote": "اطلاعات شما فقط برای هماهنگی و تماس استفاده می‌شود.",
+    "successTitle": "درخواست شما ثبت شد",
+    "successText": "از شما سپاسگزاریم. همکاران ما در اولین فرصت با شما تماس می‌گیرند.",
+    "sendAnother": "ثبت درخواست جدید",
+    "errors": {
+      "firstNameRequired": "نام الزامی است",
+      "lastNameRequired": "نام خانوادگی الزامی است",
+      "minTwoChars": "حداقل ۲ کاراکتر وارد کنید",
+      "phoneRequired": "شماره تماس الزامی است",
+      "invalidPhone": "فرمت شماره صحیح نیست (۰۹xxxxxxxxx)",
+      "invalidEmail": "فرمت ایمیل صحیح نیست",
+      "addressRequired": "آدرس الزامی است",
+      "submitFailed": "ثبت درخواست انجام نشد. لطفاً دوباره تلاش کنید.",
+      "connectionError": "خطا در ارتباط با سرور. لطفاً دوباره تلاش کنید."
+    }
+  },
+  "story": {
+    "metaTitle": "داستان لوکا",
+    "metaDescription": "لوکا لوپ دندانپزشکی می‌سازد؛ اپتیک دقیق، ارگونومی سالم و ساخت سفارشی برای هر دندانپزشک.",
+    "eyebrow": "درباره ما",
+    "title": "داستان لوکا",
+    "subtitle": "ابزاری که دیده نمی‌شود، تا شما بهتر ببینید.",
+    "introEyebrow": "[سال تأسیس] — کره جنوبی",
+    "intro": "لوکا لوپ دندانپزشکی می‌سازد؛ ابزاری که باید ساعت‌ها روی صورت بماند و فراموش شود. هر تصمیم طراحی ما از همین‌جا شروع می‌شود: وضوح بیشتر، وزن کمتر و وضعیت بدنی سالم‌تر برای دندانپزشک.",
+    "chapters": {
+      "optics": {
+        "eyebrow": "۰۱ — اپتیک",
+        "title": "شیشه، پیش از هر چیز",
+        "body": "کیفیت یک لوپ از عدسی آن شروع می‌شود. تراش، پوشش و هم‌ترازی هر جفت عدسی پیش از سوار شدن روی فریم کنترل می‌شود."
+      },
+      "ergonomics": {
+        "eyebrow": "۰۲ — ارگونومی",
+        "title": "طراحی برای یک عمر کار",
+        "body": "لوپ خوب وضعیت نشستن را اصلاح می‌کند. زاویه دید و توزیع وزن طوری تنظیم می‌شود که فشار از گردن و شانه برداشته شود."
+      },
+      "custom": {
+        "eyebrow": "۰۳ — ساخت سفارشی",
+        "title": "ساخته‌شده برای یک چهره",
+        "body": "فاصله مردمک‌ها، ارتفاع دید و فاصله کاری شما اندازه‌گیری می‌شود و لوپ بر همان اساس ساخته می‌شود.",
+        "cta": "رزرو وقت اندازه‌گیری"
+      }
+    },
+    "quote": "[نقل‌قول از بنیان‌گذار یا یکی از دندانپزشکان همراه لوکا]",
+    "quoteBy": "[نام و سمت]",
+    "facts": {
+      "1": {
+        "value": "[سال]",
+        "label": "آغاز کار لوکا"
+      },
+      "2": {
+        "value": "[تعداد]",
+        "label": "کشور با نمایندگی رسمی"
+      },
+      "3": {
+        "value": "[مدت]",
+        "label": "گارانتی اپتیک"
+      }
+    },
+    "ctaShop": {
+      "title": "مشاهده لوپ‌ها",
+      "link": "خرید"
+    },
+    "ctaContact": {
+      "title": "مشاوره با کارشناس",
+      "link": "رزرو وقت"
+    },
+    "images": {
+      "hero": "لوپ دندانپزشکی لوکا نصب‌شده روی عینک طبی مشکی",
+      "optics": "لوپ دندانپزشکی لوکا روی فریم ایمنی OneX با عدسی‌های دوچشمی",
+      "ergonomics": "لوپ دندانپزشکی لوکا روی هدبند قابل تنظیم",
+      "custom": "کیف باز لوپ لوکا با لوپ، دستمال تمیزکننده و پیچ‌گوشتی تنظیم",
+      "ctaShop": "لوپ دندانپزشکی لوکا روی هدبند قابل تنظیم",
+      "ctaContact": "کیف مشکی لوپ لوکا با لوگوی برجسته"
+    }
+  },
+  "categoryFaq": {
+    "whatQuestion": "در دسته‌بندی {name} چه محصولاتی پیدا می‌کنم؟",
+    "whatAnswer": "مجموعه‌ای از محصولات منتخب لوکا در این دسته‌بندی قرار دارد.",
+    "authenticQuestion": "آیا محصولات این دسته‌بندی اصل هستند؟",
+    "authenticAnswer": "لوکا فقط محصولات اصل را عرضه می‌کند و مشخصات هر محصول در صفحه همان کالا آمده است."
+  }
+}

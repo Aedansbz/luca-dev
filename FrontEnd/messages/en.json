@@ -1,0 +1,1232 @@
+{
+  "brand": {
+    "name": "Luca",
+    "homeLink": "LUCA — Luca home page",
+    "icon": "icon"
+  },
+  "blog": {
+    "author": "Author",
+    "tableOfContents": "Table of Contents",
+    "introduction": "Introduction",
+    "content": "Content",
+    "conclusion": "Conclusion",
+    "share": "Share",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "title": "Luca articles",
+    "subtitle": "Guides to choosing, using and caring for dental loupes and headlights.",
+    "empty": "No articles found",
+    "emptyHint": "New posts will appear here soon.",
+    "landingTitle": "From the Luca journal",
+    "landingSubtitle": "Guides and practical notes on choosing and caring for loupes",
+    "viewAll": "View all articles",
+    "readMore": "Read more"
+  },
+  "header": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "brands": "Brands",
+    "suppliers": "Suppliers",
+    "tags": "Tags",
+    "discounts": "Discounts",
+    "blogs": "Blog",
+    "landing page": "Back to home",
+    "register": "Sign up / Log in",
+    "shopping cart": "Shopping cart",
+    "theme": "Change theme",
+    "lang": "Change language",
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "announcementCta": "Book a consultation",
+    "dealers": "Dealers",
+    "contact": "Contact us",
+    "search": "Search products",
+    "story": "The Luca story"
+  },
+  "footer": {
+    "tagline": "Luca — dental loupes and headlights, built for your face and the way you work.",
+    "copyright": "© {year} {brand}. All rights reserved.",
+    "columns": {
+      "shop": "Shop",
+      "guides": "Articles & guides",
+      "service": "Customer care"
+    },
+    "links": {
+      "products": "Products",
+      "categories": "Categories",
+      "brands": "Brands",
+      "discounts": "Discounts",
+      "blog": "Blog",
+      "suppliers": "Suppliers",
+      "tags": "Tags",
+      "sitemap": "Sitemap",
+      "register": "Sign in / Register",
+      "cart": "Cart",
+      "orders": "Orders",
+      "faq": "FAQ",
+      "cooperation": "Work with us",
+      "trackOrder": "Track an order",
+      "story": "The Luca story"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "seo": {
+    "homeTitle": "Luca | Dental loupes and headlights",
+    "homeDescription": "Shop Luca TTL, flip-up and ergonomic dental loupes and LED headlights, custom-built to your measurements with expert guidance.",
+    "homeKeywords": "dental loupes,TTL loupes,ergonomic loupes,dental headlight,Luca"
+  },
+  "htmlSitemap": {
+    "title": "Sitemap",
+    "description": "Browse all Persian and English pages of the Luca store including products, blogs, brands, categories, and suppliers.",
+    "mainPages": "Main pages",
+    "products": "Products",
+    "blogs": "Blog posts",
+    "brands": "Brands",
+    "categories": "Categories",
+    "suppliers": "Suppliers",
+    "tags": "Tags",
+    "languages": "Language versions",
+    "persian": "Persian version",
+    "english": "English version",
+    "xmlHint": "XML sitemap for search engines:",
+    "empty": "Nothing to show yet.",
+    "brandPrefix": "Brand",
+    "categoryPrefix": "Category",
+    "supplierPrefix": "Supplier",
+    "tagPrefix": "Tag"
+  },
+  "store": {
+    "error": "Error",
+    "fetchError": "Failed to load data",
+    "serverError": "There was a problem connecting to the server. Please try again.",
+    "viewBrand": "View brand",
+    "showingCount": "Showing {count} items",
+    "ofTotal": "of {total}",
+    "pageSuffix": " — Page {page}",
+    "notFound": "Not found",
+    "notFoundHint": "The requested item does not exist or was removed.",
+    "loadError": "Loading error",
+    "loadErrorHint": "Something went wrong while loading this page.",
+    "backHome": "Back to home",
+    "productFallbackTitle": "Product",
+    "allProducts": "All products",
+    "blogGuides": "Blog guides",
+    "retry": "Try again",
+    "loadErrorRetryHint": "Please try again. If the problem persists, contact support.",
+    "genericError": "Something went wrong",
+    "pageNotFound": "Page not found",
+    "viewProducts": "View products"
+  },
+  "productsPage": {
+    "title": "Loupes and headlights",
+    "description": "From light Galilean loupes for everyday work to prismatic loupes for fine detail; every pair is built to your measurements.",
+    "empty": "No products found",
+    "emptyHint": "There are currently no products to display.",
+    "loadError": "Failed to load products"
+  },
+  "categoriesPage": {
+    "title": "Categories",
+    "description": "Browse Luca loupes, headlights and accessories by category.",
+    "empty": "No categories found",
+    "emptyHint": "No categories have been published yet."
+  },
+  "brandsPage": {
+    "title": "Brands",
+    "description": "See the brands available in the store.",
+    "empty": "No brands found",
+    "emptyHint": "No brands are available yet."
+  },
+  "tagsPage": {
+    "title": "Tags",
+    "description": "Browse Luca products by tag and use.",
+    "empty": "No tags found",
+    "emptyHint": "No tags have been published yet."
+  },
+  "suppliersPage": {
+    "title": "Suppliers",
+    "description": "Official Luca dealers and suppliers.",
+    "empty": "No suppliers found",
+    "emptyHint": "No suppliers are available yet."
+  },
+  "discountsPage": {
+    "title": "Offers",
+    "description": "Special offers on Luca loupes and headlights.",
+    "empty": "No discounts found",
+    "emptyHint": "There are no active offers right now.",
+    "comingSoon": "Special offers will appear here soon."
+  },
+  "registerPage": {
+    "metaTitle": "Sign in / Register",
+    "metaDescription": "Sign in to your account or create a new one."
+  },
+  "cartPage": {
+    "metaTitle": "Shopping cart",
+    "metaDescription": "Review cart items and continue to checkout."
+  },
+  "title": {
+    "notification": "Notifications"
+  },
+  "homePage": {
+    "title": "Precision, in your line of sight",
+    "subtitle": "Luca dental loupes — designed in Korea for hours of precise, comfortable work.",
+    "ctaProducts": "Shop the collection",
+    "ctaDiscounts": "Special offers",
+    "heroImageAlt": "Luca dental loupes",
+    "eyebrow": "New collection",
+    "videoPause": "Pause background video",
+    "videoPlay": "Play background video",
+    "heroLinkAria": "See the banner details"
+  },
+  "usp": {
+    "sectionTitle": "Why Luca?",
+    "items": {
+      "shipping": {
+        "title": "Safe shipping",
+        "description": "Protective packaging made for optical instruments"
+      },
+      "support": {
+        "title": "Expert guidance",
+        "description": "Help choosing magnification, working distance and frame"
+      },
+      "cod": {
+        "title": "Easy payment",
+        "description": "[Payment methods]"
+      },
+      "warranty": {
+        "title": "Warranty",
+        "description": "[Warranty length and terms]"
+      },
+      "authenticity": {
+        "title": "Authentic products",
+        "description": "Genuine Luca products only"
+      }
+    }
+  },
+  "trust": {
+    "sectionTitle": "Why clinicians trust Luca",
+    "badges": {
+      "secure": {
+        "title": "Secure payment",
+        "description": "Your details are encrypted"
+      },
+      "cod": {
+        "title": "Pay on delivery",
+        "description": "[Pay-on-delivery terms]"
+      },
+      "return": {
+        "title": "Return guarantee",
+        "description": "[Return window and terms]"
+      },
+      "shipping": {
+        "title": "Fast, safe shipping",
+        "description": "Reliable delivery nationwide"
+      }
+    },
+    "reviews": {
+      "1": {
+        "name": "[Customer name]",
+        "comment": "[Customer review 1]"
+      },
+      "2": {
+        "name": "[Customer name]",
+        "comment": "[Customer review 2]"
+      },
+      "3": {
+        "name": "[Customer name]",
+        "comment": "[Customer review 3]"
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "In clinicians' words",
+    "items": {
+      "1": {
+        "name": "[Name and specialty]",
+        "comment": "[Customer quote 1]",
+        "product": "[Product]"
+      },
+      "2": {
+        "name": "[Name and specialty]",
+        "comment": "[Customer quote 2]",
+        "product": "[Product]"
+      },
+      "3": {
+        "name": "[Name and specialty]",
+        "comment": "[Customer quote 3]",
+        "product": "[Product]"
+      }
+    }
+  },
+  "general": {
+    "changePassWord": "Change password",
+    "save": "Save",
+    "saving": "Saving...",
+    "new": "New",
+    "list": "List",
+    "default": "Default",
+    "delete": "Delete",
+    "edit": "Edit",
+    "apply": "Apply",
+    "reset": "Reset",
+    "search": "Search...",
+    "actions": "Actions",
+    "back": "Back",
+    "loading": "Loading...",
+    "paymentMethod": "Payment method",
+    "loginFirst": "Log in first"
+  },
+  "admin": {
+    "productImages": {
+      "title": "Product images",
+      "subtitle": "See every image of a product in one place, pick the main image, and replace, hide or delete each image on its own. Adding images never removes the existing ones.",
+      "pickProduct": "Product",
+      "pickProductPlaceholder": "Choose a product",
+      "pickProductHint": "Choose a product to see and edit its gallery.",
+      "count": "{count, plural, one {# image} other {# images}}",
+      "addImages": "Add images",
+      "main": "Main image",
+      "mainHint": "Shown on the product card and in search results",
+      "setMain": "Make main image",
+      "replace": "Replace this image",
+      "hide": "Hide in store",
+      "show": "Show in store",
+      "hidden": "Hidden",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete this image?",
+      "dropTitle": "Add images",
+      "dropHint": "Click or drop images here; several at once are fine. To replace one, drop a file on its card.",
+      "emptyTitle": "This product has no images yet",
+      "emptyHint": "Drop images here or click. The first one becomes the main image; you can change that later.",
+      "dropToReplace": "Drop to replace",
+      "uploading": "Uploading…",
+      "queued": "Waiting to upload",
+      "uploadFailed": "Upload failed",
+      "retry": "Try again",
+      "dismiss": "Dismiss",
+      "mainChanged": "Main image changed",
+      "replaced": "Image replaced",
+      "deleted": "Image deleted",
+      "hiddenDone": "Image hidden in the store",
+      "shownDone": "Image shown in the store",
+      "saveFailed": "Save failed",
+      "loadFailed": "Could not load the images",
+      "notImage": "“{name}” is not an image",
+      "tooLarge": "“{name}” is larger than 10 MB",
+      "download": "Download original quality",
+      "downloadCompressed": "Download (only the compressed copy exists for this image)",
+      "recentTitle": "Latest images",
+      "recentEmpty": "No images uploaded yet.",
+      "recentEnd": "End of the list",
+      "recentPages": "Image list pages",
+      "prevPage": "Previous page",
+      "nextPage": "Next page"
+    },
+    "themeSettings": {
+      "title": "Site theme",
+      "subtitle": "Define the colours of the Luca store and admin, check them on the product page, and put one live.",
+      "viewStore": "View store",
+      "newTheme": "New theme",
+      "liveShort": "Live",
+      "activeEyebrow": "The theme shoppers see right now",
+      "liveHint": "These colours are used by the store and by this admin panel. Any change goes live once you save it.",
+      "edit": "Edit",
+      "editNamed": "Edit theme {name}",
+      "duplicate": "Duplicate",
+      "noActiveTitle": "No theme is active",
+      "noActiveHint": "The store is using Luca's default palette (white ground, near-black ink, navy accent). Put one of the themes below live, or create a new one.",
+      "allThemes": "All themes",
+      "count": "{count, plural, one {# theme} other {# themes}}",
+      "themeId": "Theme no. {id}",
+      "activate": "Put live",
+      "isLive": "Live now",
+      "working": "Please wait…",
+      "activated": "“{name}” is now live on the site.",
+      "deleted": "“{name}” was deleted.",
+      "actionFailed": "That didn't work. Please try again.",
+      "confirmDelete": "Delete this theme?",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "cannotDeleteActive": "The live theme can't be deleted; put another theme live first.",
+      "newTileTitle": "New theme",
+      "newTileHint": "Start from the day or night palette and tune it on a product-page preview.",
+      "loadError": "Couldn't load themes. Check the API connection.",
+      "retry": "Try again",
+      "createTitle": "New theme",
+      "editTitle": "Edit theme",
+      "studioSubtitle": "Change the colours; the product-page preview updates as you go.",
+      "back": "Back",
+      "reset": "Reset",
+      "save": "Save",
+      "saving": "Saving…",
+      "saveShortcut": "Save (Ctrl+S)",
+      "saved": "Theme saved.",
+      "savedLive": "Theme saved and going live on the site.",
+      "saveFailed": "Couldn't save the theme.",
+      "unsavedLong": "You have unsaved changes",
+      "noChanges": "No changes yet",
+      "copyName": "{name} (copy)",
+      "tabColors": "Colours",
+      "tabPreview": "Preview",
+      "nameLabel": "Theme name",
+      "namePlaceholder": "e.g. Bright clinic",
+      "nameHelp": "Only used to find it in the admin; shoppers never see it.",
+      "nameRequired": "A theme name is required.",
+      "presetsTitle": "Starting point",
+      "presetsHint": "Replaces every colour with the chosen palette; Reset brings yours back.",
+      "presets": {
+        "day": "Day (Luca default)",
+        "night": "Night"
+      },
+      "groups": {
+        "brand": {
+          "title": "Brand",
+          "hint": "Luca's accent for the announcement bar and primary buttons, and the ink colour for dark buttons."
+        },
+        "page": {
+          "title": "Page & text",
+          "hint": "White ground, paper sections, hairlines and type; the admin panel uses these too."
+        },
+        "status": {
+          "title": "Status messages",
+          "hint": "Success, error, warning and info notices."
+        }
+      },
+      "fields": {
+        "primaryColor": {
+          "label": "Primary",
+          "help": "Announcement bar, primary buttons and links"
+        },
+        "secondaryColor": {
+          "label": "Ink",
+          "help": "Dark buttons such as “Subscribe” and strong details"
+        },
+        "highlightColor": {
+          "label": "Accent",
+          "help": "Badges, small labels and decorative details"
+        },
+        "neutralColor": {
+          "label": "Paper",
+          "help": "Background of sections such as the newsletter"
+        },
+        "successColor": {
+          "label": "Success",
+          "help": "Success messages"
+        },
+        "errorColor": {
+          "label": "Error",
+          "help": "Errors and discounts"
+        },
+        "warningColor": {
+          "label": "Warning",
+          "help": "Warnings"
+        },
+        "infoColor": {
+          "label": "Info",
+          "help": "Informational messages"
+        },
+        "surfaceColor": {
+          "label": "Page background",
+          "help": "Main site background, cards and the admin"
+        },
+        "surfaceMutedColor": {
+          "label": "Soft background",
+          "help": "Product photo frames, footer and admin sidebar"
+        },
+        "borderColor": {
+          "label": "Lines & borders",
+          "help": "Dividers and card borders"
+        },
+        "textColor": {
+          "label": "Text",
+          "help": "Body text and headings"
+        },
+        "textMutedColor": {
+          "label": "Muted text",
+          "help": "Descriptions, labels and secondary text"
+        }
+      },
+      "edited": "edited",
+      "changedFrom": "Was {hex}",
+      "hexOf": "{label} hex code",
+      "revertColor": "Revert this colour",
+      "livePreview": "Product page preview",
+      "deviceDesktop": "Desktop",
+      "deviceMobile": "Mobile",
+      "previewHint": "Hover a colour to outline where the preview uses it.",
+      "fontTitle": "Fonts",
+      "fontHint": "Pick the typeface for body text and for headings separately. Fonts are self-hosted and visitors only download the ones you pick.",
+      "fontTargets": {
+        "body": "Body text",
+        "heading": "Headings"
+      },
+      "fontHeadingSample": "Choosing a dental loupe — راهنمای انتخاب لوپ",
+      "fontSample": "Luca dental loupe, 3.5× magnification — لوپ دندانپزشکی لوکا",
+      "fontCurrent": "Selected",
+      "fontCategories": {
+        "general": "General",
+        "formal": "Formal",
+        "fancy": "Decorative"
+      },
+      "contrastTitle": "Readability",
+      "contrastHint": "Contrast of the colour pairs the site puts together, checked against WCAG AA.",
+      "contrastScore": "{passed} of {total} pass",
+      "sample": "Aa",
+      "ratio": "{value}:1 (min {min})",
+      "pass": "Pass",
+      "fail": "Low",
+      "checks": {
+        "body": "Text on background",
+        "muted": "Muted text on background",
+        "paper": "Text on soft background",
+        "button": "White label on primary button",
+        "ink": "White label on ink button",
+        "link": "Link on background",
+        "error": "Error message on background"
+      },
+      "preview": {
+        "announcement": "Expert advice on choosing the right loupe",
+        "announcementLink": "Book a visit",
+        "dealers": "Dealers",
+        "contact": "Contact",
+        "nav1": "Products",
+        "nav2": "Categories",
+        "nav3": "Brands",
+        "nav4": "Articles",
+        "nav5": "Price list",
+        "crumbs": "Home / Loupes / Galilean TTL loupe",
+        "eyebrow": "LUCA · TTL collection",
+        "productTitle": "Galilean TTL loupe",
+        "price": "[price] Toman",
+        "productText": "A light loupe with through-the-lens optics, built to your pupil distance and working distance.",
+        "magnification": "Magnification",
+        "frameColor": "Frame colour",
+        "addToCart": "Add to cart",
+        "bookFitting": "Book a fitting",
+        "specs": "Specifications",
+        "spec1Label": "Magnification",
+        "spec1Value": "[…x]",
+        "spec2Label": "Working distance",
+        "spec2Value": "[… mm]",
+        "spec3Label": "Weight",
+        "spec3Value": "[… g]",
+        "alertSuccess": "Added to your cart",
+        "alertError": "This model is currently unavailable",
+        "alertWarning": "Limited stock left",
+        "alertInfo": "Book a fitting appointment",
+        "newsletter": "What's new at Luca",
+        "newsletterText": "New models and expert guides",
+        "subscribe": "Subscribe",
+        "copyright": "© LUCA"
+      },
+      "textSizeTitle": "Text size",
+      "textSizeHint": "Pick the size and weight of body text and headings separately; «Custom» takes an exact pixel size. Every other size and weight moves by the same step. The preview updates right away.",
+      "textSizes": {
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "custom": "Custom (px)"
+      },
+      "textSizePxBody": "Base text size",
+      "textSizePxHeading": "Main heading (H1) size",
+      "textSizePxRange": "Between {min} and {max} px; the site is currently {base} px and every other size follows in proportion.",
+      "customFontBadge": "Uploaded",
+      "addFontTitle": "Add a font",
+      "addFontHint": "Choose a font file (woff2, woff, ttf or otf, up to 5 MB) and its name. It joins this category and can be used for text and headings.",
+      "addFontFile": "Font file",
+      "addFontNameFa": "Persian name",
+      "addFontNameEn": "English name",
+      "addFontSubmit": "Upload font",
+      "addFontUploading": "Uploading…",
+      "addFontCancel": "Cancel",
+      "addFontDone": "Font added; you can select it now.",
+      "addFontFailed": "The font could not be uploaded",
+      "addFontNeedFile": "Choose a font file",
+      "addFontNeedName": "Enter the font name",
+      "fontWeightTitle": "Weight",
+      "fontWeightSample": "Aa",
+      "fontWeights": {
+        "100": "Thin",
+        "200": "Extra light",
+        "300": "Light",
+        "400": "Regular",
+        "500": "Medium",
+        "600": "Semibold",
+        "700": "Bold",
+        "800": "Extra bold",
+        "900": "Black"
+      }
+    },
+    "dashboard": "Dashboard",
+    "dashboardTitle": "Admin panel",
+    "dashboardSubtitle": "Manage store content, entities, and settings",
+    "welcome": "Welcome",
+    "quickAccess": "Quick access",
+    "quickAccessHint": "Pick an entity from the sidebar or use the shortcuts below.",
+    "openStore": "View storefront",
+    "entities": "Entities",
+    "listTitle": "{entity} list",
+    "listSubtitle": "Search, manage, and edit records",
+    "totalRecords": "{count} records",
+    "selectedCount": "{count} selected",
+    "noData": "No data found",
+    "noDataHint": "No records yet, or your search returned nothing.",
+    "listLoadError": "Failed to load admin list. Check the API connection.",
+    "formLoadError": "Form configuration was not found for this entity.",
+    "formParseError": "Form configuration is invalid.",
+    "createTitle": "Create {entity}",
+    "editTitle": "Edit {entity}",
+    "formSubtitleCreate": "Fill in the details and save",
+    "formSubtitleEdit": "Apply your changes and save",
+    "page": "Page {page} of {total}",
+    "pageSize": "Per page",
+    "collapseMenu": "Collapse menu",
+    "expandMenu": "Expand menu",
+    "openMenu": "Open admin menu",
+    "closeMenu": "Close admin menu",
+    "menuEmpty": "No menu items available",
+    "excel": {
+      "dropHere": "Drop the Excel file here or click to choose",
+      "onlyXlsx": "Only .xlsx files are accepted",
+      "changeFile": "click to change",
+      "uploading": "Uploading... {percent}%",
+      "processing": "Validating and saving rows...",
+      "processingHint": "large files take a while; keep this window open",
+      "stepUpload": "Upload",
+      "stepProcess": "Validate & save",
+      "elapsed": "{seconds}s",
+      "groupLabel": "Excel actions",
+      "export": "Export to Excel",
+      "exportSelected": "Export {count} selected",
+      "exporting": "Preparing...",
+      "import": "Import from Excel",
+      "template": "Blank template",
+      "templateHint": "Empty workbook with the column layout, dropdown lists and a guide",
+      "downloadError": "Could not download the Excel file",
+      "importTitle": "Import {entity} from Excel",
+      "importHint": "Rows with an Id are updated, rows without one are created. Get the file layout from the",
+      "sheetsHint": "The file may contain these sheets: {sheets}.",
+      "chooseFile": "Choose .xlsx file",
+      "noFile": "No file selected",
+      "dryRun": "Validate only (save nothing)",
+      "allOrNothing": "If any row fails, save nothing (recommended)",
+      "partial": "Save valid rows and skip the failing ones",
+      "submit": "Start import",
+      "validate": "Validate file",
+      "importing": "Processing...",
+      "importError": "Import failed",
+      "importDone": "Data saved successfully",
+      "close": "Close",
+      "sheet": "Sheet",
+      "row": "Row",
+      "error": "Error",
+      "created": "Created",
+      "updated": "Updated",
+      "failed": "Failed",
+      "dryRunOk": "Validated: the file has no errors and is ready to import.",
+      "dryRunErrors": "Validated: fix the errors below.",
+      "rolledBack": "Nothing was saved because of errors. Fix them and upload again.",
+      "committed": "All rows were saved.",
+      "committedPartial": "Valid rows were saved; the rows below were skipped."
+    },
+    "dock": {
+      "aria": "Admin quick shortcuts",
+      "orders": "Orders",
+      "products": "Products",
+      "discounts": "Discounts",
+      "panel": "Panel"
+    },
+    "backupNav": "Backup",
+    "backupTitle": "Backup & restore",
+    "backupSubtitle": "Full backup (database + images and files), restore from file, and automatic backups",
+    "backupCreate": "Create new backup",
+    "backupCreating": "Creating backup...",
+    "backupCreateSuccess": "Backup created successfully",
+    "backupCreateError": "Failed to create backup",
+    "backupLoadError": "Failed to load backup list",
+    "backupCount": "Backups",
+    "backupCountHint": "Files currently stored on the server",
+    "backupHintTitle": "Security note",
+    "backupHint": "A full backup contains user data; keep the downloaded file somewhere safe. Only SuperAdmin can restore.",
+    "backupListTitle": "Backup list",
+    "backupListSubtitle": "Newest files appear first",
+    "backupRefresh": "Refresh",
+    "backupEmpty": "No backups yet",
+    "backupEmptyHint": "Use “Create new backup” to generate the first dump.",
+    "backupFileName": "File name",
+    "backupCreatedAt": "Created at",
+    "backupSize": "Size",
+    "backupDownload": "Download",
+    "backupDownloadSuccess": "Download started",
+    "backupDownloadError": "Failed to download backup",
+    "backupDeleteConfirm": "Delete “{file}”?",
+    "backupDeleteSuccess": "Backup deleted",
+    "backupDeleteError": "Failed to delete backup",
+    "backupFullCreate": "Full backup (database + images)",
+    "backupFullCreating": "Creating full backup...",
+    "backupFullCreateSuccess": "Full backup created",
+    "backupKindDatabase": "Database only",
+    "backupKindFull": "Full",
+    "backupKindAuto": "Automatic",
+    "backupKindPreRestore": "Before restore",
+    "backupKind": "Type",
+    "backupRestoreTitle": "Restore from file",
+    "backupRestoreSubtitle": "Choose a full backup (zip) to bring the database and images back to that state. Use this to move to a new server too.",
+    "backupRestoreWarning": "Warning: all current data (database and images) will be replaced by the file's content. A safety backup of the current state is created first.",
+    "backupRestoreChoose": "Choose backup file (.zip)",
+    "backupRestoreConfirmLabel": "To confirm, type RESTORE",
+    "backupRestoreButton": "Restore",
+    "backupRestoreUploading": "Uploading file... {percent}%",
+    "backupRestoreProcessing": "Restoring; please keep this page open...",
+    "backupRestoreSuccess": "Restore finished. Safety backup: {file}",
+    "backupRestoreError": "Restore failed",
+    "backupRestoreSuperAdminOnly": "Restore is available to SuperAdmin only.",
+    "backupAutoTitle": "Automatic backup",
+    "backupAutoSubtitle": "A full backup is created on the server every day; older ones are removed.",
+    "backupAutoEnabled": "Enable daily automatic backup",
+    "backupAutoHour": "Run at hour (UTC)",
+    "backupAutoHourHint": "23:00 UTC is about 02:30 AM in Iran.",
+    "backupAutoKeep": "Backups to keep",
+    "backupAutoSave": "Save settings",
+    "backupAutoSaved": "Settings saved",
+    "backupAutoSaveError": "Failed to save settings",
+    "backupAutoLast": "Last automatic backup",
+    "backupNever": "Not yet",
+    "backupNeverDownloaded": "You have not downloaded any full backup to your own computer yet. Backups that stay only on this server are lost if the server fails; download one.",
+    "backupDownloadReminder": "The last full backup download was {days} days ago. Save a fresh copy to your own computer.",
+    "backupLastDownloaded": "Last download",
+    "seedTitle": "Sample data (Seed)",
+    "seedSubtitle": "System seeds run on startup; apply sample catalog SQL from here.",
+    "seedAutoNote": "Automatic: Roles + EntityConfig (migration) and admin user when Seed:AdminPassword is set",
+    "seedFilesTitle": "Sample SQL files",
+    "seedUnavailable": "Seed files are not present in this image",
+    "seedApply": "Apply sample data",
+    "seedApplyClean": "Clean and re-seed",
+    "seedApplying": "Applying seed...",
+    "seedApplySuccess": "Sample data applied",
+    "seedApplyError": "Failed to apply seed",
+    "seedConfirmClean": "Sample tables will be truncated and re-seeded. Continue?",
+    "seedConfirm": "Add sample data to the database?",
+    "seoDashboardTitle": "Advanced SEO Dashboard",
+    "seoDashboardSubtitle": "Manage metadata, canonical tags, robots, and page priorities across the storefront",
+    "seoManageRules": "Manage SEO rules",
+    "seoRulesCount": "Active rules",
+    "seoRulesHint": "Route-level SEO rules are managed from this section.",
+    "seoStrategyTitle": "Centralized SEO control",
+    "seoStrategyHint": "In advanced projects, storing SEO rules in the database lets the team update route metadata, list pages, and detail pages without shipping a new frontend build.",
+    "seoQuickActions": "Key actions",
+    "seoQuickActionsHint": "Use these shortcuts to manage SEO rules and high-value content areas.",
+    "seoWorkflowTitle": "Recommended workflow",
+    "seoWorkflowDescription": "Create an exact or prefix rule for the target route, complete the content SEO fields in the related entity, then validate the rendered metadata in the final page and build output.",
+    "seoWorkflow": {
+      "step1Title": "1. Define a rule",
+      "step1Desc": "Create specific rules for routes like `products`, `blog`, or `products/some-slug`.",
+      "step2Title": "2. Complete content",
+      "step2Desc": "Fill in the best title, description, and image values in content entities such as `blogs` and `products`.",
+      "step3Title": "3. Validate output",
+      "step3Desc": "After saving, verify canonical, robots, and Open Graph output in the rendered page and build."
+    },
+    "seoCards": {
+      "rules": {
+        "title": "Central SEO Rules",
+        "description": "Manage title, description, keywords, canonical, and robots for routes and route patterns."
+      },
+      "blogs": {
+        "title": "Blog SEO",
+        "description": "Optimize article content, slugs, and metadata fields."
+      },
+      "products": {
+        "title": "Product SEO",
+        "description": "Review titles, descriptions, and primary images for product detail pages."
+      },
+      "categories": {
+        "title": "Category SEO",
+        "description": "Control SEO for listing pages and category structure."
+      },
+      "brands": {
+        "title": "Brand SEO",
+        "description": "Manage brand landing pages and brand listing SEO."
+      }
+    }
+  },
+  "register": {
+    "enter": "Enter",
+    "enterEmail": "Enter your email below to login to your account",
+    "email": "Email",
+    "emailPlaceHolder": "m@example.com",
+    "password": "Password",
+    "forgotPassword": "Forgot your password?",
+    "signUp": "Sign up",
+    "dotHaveAnyAccount": "Don't have an account?",
+    "startSignUp": "Enter your email below to Sign up",
+    "emailRequired": "Email is required",
+    "invalidEmail": "Invalid email format",
+    "phoneRequired": "Phone number is required",
+    "invalidPhone": "Invalid phone format (09xxxxxxxxx)",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "At least 8 characters",
+    "fullNameRequired": "Full name is required",
+    "fullName": "Full name",
+    "userDescription": "User description",
+    "phoneNumber": "Phone number",
+    "phoneNumberPlaceholder": "09*********",
+    "register": "Register",
+    "havingAccount": "I have an account",
+    "rememberMe": "Remember me",
+    "userImage": "User image",
+    "success": "Registered successfully",
+    "failed": "Register failed",
+    "minTwoChars": "Enter at least 2 characters",
+    "minTwoCharsShort": "At least 2 characters",
+    "registerError": "Registration error",
+    "connectionError": "Connection error",
+    "backToLogin": "Back to sign in"
+  },
+  "shoppingCart": {
+    "header": {
+      "yourCart": "Your cart",
+      "items": "Items",
+      "reviewBeforeCheckout": "Review your items before checkout",
+      "totalDiscount": "Total discount",
+      "shipping": "Shipping",
+      "total": "Total",
+      "freeShippingOver": "[Free-shipping threshold]",
+      "checkout": "Checkout",
+      "viewCart": "View Cart"
+    },
+    "ShoppingCart": "Shopping Cart",
+    "ItemsInYourCart": "Items in your cart",
+    "days": "days",
+    "standardShipping": "Standard Shipping",
+    "shippingMethod": "Shipping Method",
+    "reviewYourCartDetailsAndShippingInformation": "Review your cart details and shipping information",
+    "shoppingCartSummary": "Shopping cart summary",
+    "signInToCheckout": "Sign in to check out",
+    "promoCode": "Promo Code",
+    "promoCodePlaceHolder": "Enter promo code",
+    "subTotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "freeReturns": "[Return window]",
+    "securePayment": "Secure payment",
+    "fastDelivery": "Fast delivery",
+    "placeOrder": "Place order",
+    "chooseAddress": "Choose an address",
+    "emptyCart": "Empty cart",
+    "promoCodeSubmit": "promo code has been submitted",
+    "discountCodeAmount": "Discount code amount",
+    "totalDiscount": "Total discount"
+  },
+  "address": {
+    "addresses": "Addresses",
+    "addFirstAddress": "Add first address",
+    "addNewAddress": "Add new address",
+    "name": "Name",
+    "phoneNumber": "Phone number",
+    "state": "State",
+    "city": "City",
+    "fullAddress": "Full address",
+    "postalCode": "Postal code",
+    "saveAddress": "Save address",
+    "cancel": "Cancel",
+    "chooseAsDefault": "Choose as default",
+    "editAddress": "Edit address"
+  },
+  "checkout": {
+    "proceedToCheckout": "Proceed to Checkout",
+    "title": "Checkout",
+    "landing page": "go to landing page",
+    "invoiceNumber": "Invoice #{number}",
+    "customer": "Customer: {name}",
+    "grandTotal": "Grand total",
+    "payable": "Payable"
+  },
+  "payment": {
+    "verifying": "Verifying payment...",
+    "waiting": "Please wait a moment",
+    "redirect": "Redirecting to the payment gateway...",
+    "paymentFailed": "Payment Failed",
+    "payment_issue": "There was an issue processing your payment",
+    "what_happened": "What happened?",
+    "error_code": "Error code",
+    "payment_error": "Payment Error",
+    "insufficient_funds": "Insufficient funds",
+    "card_declined": "Card was declined",
+    "expired_card": "Card has expired",
+    "network_error": "Network error",
+    "timeout": "Payment timed out",
+    "solutions_title": "Suggested Solutions",
+    "retry_title": "Retry Payment",
+    "retry_desc": "Make sure your card information is correct.",
+    "alternative_title": "Alternative Payment Method",
+    "alternative_desc": "You can try a different payment method.",
+    "support_title": "Contact Support",
+    "support_desc": "If the problem persists, contact our support team.",
+    "order_title": "Your Order",
+    "order_number": "Order Number",
+    "failed_status": "Payment Failed",
+    "order_notice": "Your order is temporarily reserved. Please complete payment within 24 hours.",
+    "retry_button": "Retry Payment",
+    "back_to_checkout": "Back to Checkout",
+    "view_cart": "View Cart",
+    "back_home": "Back to Home",
+    "final_confirm_title": "Final Order Confirmation",
+    "final_confirm_desc": "Please review and confirm your order details",
+    "shipping_address": "Shipping Address",
+    "shipping_method": "Shipping Method",
+    "payment_method": "Payment Method",
+    "items_total": "Items Total",
+    "shipping_cost": "Shipping Cost",
+    "discount": "Discount",
+    "final_amount": "Final Amount",
+    "cancel": "Cancel",
+    "confirm_and_pay": "Confirm & Pay",
+    "connecting_gateway": "Connecting to payment gateway...",
+    "currency": "Toman"
+  },
+  "orderStatus": {
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "paid": "Paid",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled"
+  },
+  "comments": {
+    "yourComment": "Your comment",
+    "yourRate": "Your rate"
+  },
+  "product": {
+    "suppliersTitle": "Suppliers for this product",
+    "suppliersCount": "{count} suppliers",
+    "userReviews": "Customer reviews",
+    "productDetails": "Product details",
+    "description": "Description",
+    "specs": "Specifications",
+    "noSpecs": "No specifications have been registered for this product.",
+    "noComments": "No reviews have been submitted for this product yet.",
+    "writeCommentPlaceholder": "Write your review...",
+    "submitComment": "Submit review",
+    "pleaseWriteComment": "Please write your review",
+    "pleaseEnterComment": "Please enter your comment",
+    "brandProducts": "Brand products",
+    "brandSuppliers": "Brand suppliers",
+    "brandCategories": "Categories",
+    "tagProducts": "Tagged products",
+    "chooseOffer": "Add to cart",
+    "variantDefaultLabel": "Option",
+    "variantGroupAria": "Choose {name}",
+    "supplierProducts": "Products from this supplier"
+  },
+  "category": {
+    "subCategories": "Sub categories",
+    "noSubCategory": "There is no sub category",
+    "noCategorySupplier": "There is no category supplier",
+    "goToParent": "Go to parent"
+  },
+  "common": {
+    "buyNow": "Buy now",
+    "seePrice": "See price",
+    "moreDetails": "More details",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "viewCategory": "Explore category",
+    "imageOf": "Image {n} of {total}",
+    "productsLabel": "Products",
+    "viewProduct": "View product",
+    "featured": "Featured",
+    "loading": "Loading",
+    "view": "View",
+    "add": "Add",
+    "previous": "Previous",
+    "next": "Next",
+    "price": "Price",
+    "currency": "Toman",
+    "rial": "Rial",
+    "tomanShort": "T",
+    "inStock": "In stock",
+    "outOfStock": "Out of stock",
+    "lowStock": "Low stock ({count})",
+    "lowStockShort": "Low stock",
+    "percentOff": "% Off",
+    "specialDiscount": "Special offer",
+    "addToCart": "Add to cart",
+    "wishlist": "Wishlist",
+    "reviewsCount": "{count} reviews",
+    "votesCount": "{count} votes",
+    "quantityCount": "{count} pcs",
+    "viewBrand": "View brand",
+    "viewBrandArrow": "View brand →",
+    "viewAllProducts": "View all products",
+    "noProductsFound": "No products found",
+    "primary": "Primary",
+    "ratingAria": "Rating {value} of {max}",
+    "fiveOfFive": "5 of 5",
+    "pleaseSelect": "Please select...",
+    "saveFailed": "Save failed. Please try again.",
+    "fieldTooLong": "Maximum {max} characters allowed (currently {actual})",
+    "fieldsTooLong": "These fields are too long: {fields}",
+    "fieldTooLongGeneric": "One of the fields is longer than allowed.",
+    "fieldRequired": "This field is required",
+    "fieldInvalid": "This value is not valid",
+    "fieldsInvalid": "Please check these fields: {fields}",
+    "noOptionsFound": "No options found",
+    "underDevelopment": "This section is under development",
+    "scrollPrev": "Scroll previous",
+    "scrollNext": "Scroll next",
+    "addToCartAria": "Add {name} to cart",
+    "priceColon": "Price: {price}",
+    "supplier": "Supplier",
+    "roleLabel": "Role: {role}",
+    "viewSupplier": "View supplier →",
+    "supplierNotFound": "Supplier not found",
+    "viewSupplierPlain": "View supplier",
+    "brand": "Brand"
+  },
+  "landing": {
+    "brandsTitle": "Brands",
+    "brandsSubtitle": "Brands available in the store",
+    "viewAllBrands": "View all brands",
+    "categoriesTitle": "Shop by category",
+    "viewAllCategories": "View all categories",
+    "specialOfferTitle": "Today's special offer",
+    "specialOfferDesc": "These discounted products are available only until the end of today.",
+    "noOffers": "No offers available",
+    "selectedProducts": "Luca selection",
+    "bestSellers": "Best sellers",
+    "newest": "Newest",
+    "discounters": "On sale",
+    "slideDetailsAria": "View slide {index} details",
+    "goToSlideAria": "Go to slide {index}",
+    "prevSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "slideCta": "View",
+    "specialOfferEyebrow": "Special offer",
+    "features": {
+      "ergonomics": {
+        "eyebrow": "Ergonomics",
+        "title": "A straight neck, a direct view",
+        "body": "The declination angle of Luca loupes is set for each clinician, so head and neck stay in a natural position through the working day.",
+        "cta": "Explore ergonomic loupes"
+      },
+      "optics": {
+        "eyebrow": "Optics",
+        "title": "Clarity, centre to edge",
+        "body": "Multi-coated lenses give a bright, distortion-free image across the whole field of view; tissue colour appears as it is.",
+        "cta": "The Luca story"
+      }
+    },
+    "experience": {
+      "title": "The Luca experience",
+      "appointment": {
+        "title": "Book a consultation",
+        "body": "In person or online, a Luca specialist recommends the magnification, working distance and frame that suit you.",
+        "cta": "Send a request"
+      },
+      "fitting": {
+        "title": "Measurement and custom build",
+        "body": "Your pupillary distance and viewing angle are measured so the loupes are built exactly for your face.",
+        "cta": "FAQ on measuring and building your loupes"
+      },
+      "contact": {
+        "title": "Contact us",
+        "body": "Get in touch for buying advice, order tracking or after-sales service.",
+        "cta": "Ways to contact and work with Luca"
+      }
+    },
+    "contactBand": {
+      "title": "Latest from Luca",
+      "body": "Leave a contact request to hear about new models and get advice.",
+      "cta": "Request a call"
+    },
+    "homeSliderLabel": "Home page slider"
+  },
+  "order": {
+    "myOrders": "My orders",
+    "selectOrder": "Select an order",
+    "orderDetails": "Order details",
+    "status": "Status:",
+    "orderNumber": "Order number: {id}",
+    "itemsSummary": "{count} items • Total {total} {currency}",
+    "date": "Date: {date}",
+    "orderTotal": "Order total",
+    "shippingCost": "Shipping cost",
+    "discount": "Discount",
+    "finalAmount": "Final amount"
+  },
+  "captcha": {
+    "placeholder": "Enter the code above",
+    "refresh": "Get a new code"
+  },
+  "uploader": {
+    "placeholder": "Drag and drop or click to select an image",
+    "previousNotFound": "Previous image not found; please upload again",
+    "videoType": "Only MP4 or WebM videos are allowed.",
+    "videoSize": "Video must be 30 MB or smaller.",
+    "videoPlaceholder": "Choose a video (mp4 / webm)"
+  },
+  "countdown": {
+    "expired": "The discount has ended",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "promotion": {
+    "yaldaBanner": "[Seasonal banner text]"
+  },
+  "storefront": {
+    "faqTitle": "FAQ",
+    "relatedLinks": "Related links",
+    "seoSummary": "SEO summary"
+  },
+  "navbar": {
+    "loginRegister": "Login / Sign up",
+    "systemTraining": "System training",
+    "aboutUs": "About us",
+    "customers": "Customers",
+    "products": "Products"
+  },
+  "animatedLanding": {
+    "brandName": "Arian System",
+    "software": "Software"
+  },
+  "paymentSuccess": {
+    "title": "Payment Successful!",
+    "subtitle": "Your order was placed successfully. Purchase details are below.",
+    "thankYou": "Thank You For Your Purchase!",
+    "thankYouDesc": "Your order {orderId} has been placed. A confirmation email has been sent to you.",
+    "orderDetails": "Order Details",
+    "orderNumber": "Order Number",
+    "orderDate": "Order Date",
+    "transactionId": "Transaction ID",
+    "amountPaid": "Amount Paid",
+    "nextSteps": "Next Steps",
+    "processing": "Order Processing",
+    "processingDesc": "Your order is being prepared and will ship soon.",
+    "trackOrder": "Track Your Order",
+    "trackOrderDesc": "You can track your order from your account panel.",
+    "actions": "Actions",
+    "printReceipt": "Print Receipt",
+    "downloadInvoice": "Download Invoice",
+    "viewOrders": "View Orders",
+    "backHome": "Back to Home",
+    "needHelp": "Need Help?",
+    "needHelpDesc": "Our support team is available 24/7 to answer your questions.",
+    "contactSupport": "Contact Support →"
+  },
+  "faqPage": {
+    "title": "Frequently asked questions",
+    "description": "Answers to common questions about ordering, shipping and payment at Luca.",
+    "empty": "No questions yet",
+    "emptyHint": "Answers to common questions will appear here soon.",
+    "viewAll": "View all questions",
+    "contactHint": "Did not find your answer? Leave your contact details and we will call you.",
+    "contactCta": "Request a call",
+    "contactTitle": "Didn't find your answer?"
+  },
+  "cooperationPage": {
+    "title": "Work with us",
+    "description": "If you would like to work with Luca (supplying goods, wholesale purchasing or reselling), fill in the form below and we will contact you shortly.",
+    "metaDescription": "Cooperation form for suppliers, wholesale buyers and resellers of the Luca store.",
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "phoneNumber": "Phone number",
+      "email": "Email (optional)",
+      "address": "Address",
+      "preferredContactTime": "Best time to call (optional)",
+      "preferredContactTimePlaceholder": "e.g. Saturday to Wednesday, 9 to 13",
+      "message": "Details (optional)",
+      "messagePlaceholder": "Tell us about the kind of cooperation you have in mind"
+    },
+    "submit": "Send request",
+    "submitting": "Sending...",
+    "privacyNote": "Your details are only used to contact you about this request.",
+    "successTitle": "Your request was received",
+    "successText": "Thank you. Our team will contact you as soon as possible.",
+    "sendAnother": "Send another request",
+    "errors": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "minTwoChars": "Enter at least 2 characters",
+      "phoneRequired": "Phone number is required",
+      "invalidPhone": "Invalid phone number (09xxxxxxxxx)",
+      "invalidEmail": "Invalid email address",
+      "addressRequired": "Address is required",
+      "submitFailed": "Could not send the request. Please try again.",
+      "connectionError": "Could not reach the server. Please try again."
+    }
+  },
+  "story": {
+    "metaTitle": "The Luca story",
+    "metaDescription": "Luca makes dental loupes: precise optics, healthy ergonomics and a custom build for every clinician.",
+    "eyebrow": "About us",
+    "title": "The Luca story",
+    "subtitle": "A tool that disappears, so you can see better.",
+    "introEyebrow": "[Founding year] — South Korea",
+    "intro": "Luca makes dental loupes: a tool that has to sit on the face for hours and be forgotten. Every design decision starts there — more clarity, less weight and a healthier posture for the clinician.",
+    "chapters": {
+      "optics": {
+        "eyebrow": "01 — Optics",
+        "title": "Glass, before anything else",
+        "body": "The quality of a loupe starts with its lens. Grinding, coating and alignment of each lens pair are checked before they are mounted on the frame."
+      },
+      "ergonomics": {
+        "eyebrow": "02 — Ergonomics",
+        "title": "Designed for a lifetime of work",
+        "body": "Good loupes correct the way you sit. Viewing angle and weight distribution are set to take the load off the neck and shoulders."
+      },
+      "custom": {
+        "eyebrow": "03 — Custom build",
+        "title": "Made for one face",
+        "body": "Your pupillary distance, viewing height and working distance are measured, and the loupes are built to match.",
+        "cta": "Book a measurement"
+      }
+    },
+    "quote": "[Quote from the founder or a clinician who works with Luca]",
+    "quoteBy": "[Name and title]",
+    "facts": {
+      "1": {
+        "value": "[Year]",
+        "label": "Luca founded"
+      },
+      "2": {
+        "value": "[Number]",
+        "label": "Countries with official dealers"
+      },
+      "3": {
+        "value": "[Term]",
+        "label": "Optics warranty"
+      }
+    },
+    "ctaShop": {
+      "title": "Shop loupes",
+      "link": "Shop"
+    },
+    "ctaContact": {
+      "title": "Talk to a specialist",
+      "link": "Book a consultation"
+    },
+    "images": {
+      "hero": "LUCA dental loupe mounted on black prescription eyeglasses",
+      "optics": "LUCA dental loupe on the OneX safety frame with binocular lenses",
+      "ergonomics": "LUCA dental loupe on an adjustable headband",
+      "custom": "Open LUCA loupe case with the loupe, a cleaning cloth and an adjustment screwdriver",
+      "ctaShop": "LUCA dental loupe on an adjustable headband",
+      "ctaContact": "Black LUCA loupe case with embossed logo"
+    }
+  },
+  "categoryFaq": {
+    "whatQuestion": "What can I find in {name}?",
+    "whatAnswer": "A curated selection of Luca products in this category.",
+    "authenticQuestion": "Are products in this category authentic?",
+    "authenticAnswer": "Luca sells authentic products only; each product page lists detailed specs."
+  }
+}

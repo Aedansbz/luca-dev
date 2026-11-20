@@ -1,0 +1,41 @@
+import React from 'react';
+
+import { getLocale, getTranslations } from 'next-intl/server';
+import Link from 'next/link';
+
+import { ICategory } from '@models/category';
+
+import CategoryCard from '../categoryCart';
+import ApiErrorNotice from '@components/molecules/apiErrorNotice';
+
+interface IProps {
+  categories: ICategory[];
+  error?: string | null;
+}
+export default async  function LandingCategory(props: IProps) {
+  const { categories, error } = props;
+  if (!categories?.length) {
+    return error ? (
+      <section className="store-section luca-container">
+        <ApiErrorNotice message={error} />
+      </section>
+    ) : null;
+  }
+  const locale = await getLocale();
+  const t = await getTranslations('landing');
+  return (
+    <section id="categories" className="flex flex-col gap-10 store-section luca-container">
+      <div className="flex flex-col items-center gap-1 text-center">
+        <h2 className="luca-h2">{t('categoriesTitle')}</h2>
+        <Link href={`/${locale}/categories`} className="luca-link">
+          {t('viewAllCategories')}
+        </Link>
+      </div>
+      <div className="cat-grid">
+        {categories.map((cat) => (
+          <CategoryCard key={cat.id} category={cat} />
+        ))}
+      </div>
+    </section>
+  );
+}

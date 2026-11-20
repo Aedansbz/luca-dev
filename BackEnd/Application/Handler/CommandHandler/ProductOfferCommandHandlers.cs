@@ -1,0 +1,115 @@
+﻿using Application.Commands;
+using Application.Common;
+using Common;
+using MediatR;
+using Microsoft.AspNetCore.Http;
+using OnlineShop.Domain.Interfaces;
+
+public class ProductOfferCommandHandler(
+        IProductOfferRepository _offerRepo,
+        IProductRepository _productRepo,
+        IHttpContextAccessor _accessor)
+  :
+    IRequestHandler<CreateProductOfferCommand, ServiceResult<IdDto>>,
+    IRequestHandler<UpdateProductOfferCommand, ServiceResult<IdDto>>,
+    IRequestHandler<ActiveProductOfferCommand, ServiceResult<IdDto>>,
+    IRequestHandler<DeleteProductOfferCommand, ServiceResult<IdDto>>
+{
+    public async Task<ServiceResult<IdDto>> Handle(CreateProductOfferCommand request, CancellationToken cancellationToken)
+    {
+        var userId = _accessor.HttpContext.GetUserId();
+        if (userId == null)
+            return ServiceResult<IdDto>.Unauthorized();
+
+        var product = await _productRepo.GetByIdAsync(request.ProductId);
+        if (product == null || product.IsDeleted)
+            return ServiceResult<IdDto>.Failed("محصول موردنظر پیدا نشد.");
+
+        var exists = await _offerRepo.ExistsAsync(request.ProductId, userId.Value, request.VariantValue);
+        if (exists)
+            return ServiceResult<IdDto>.Failed(string.IsNullOrWhiteSpace(request.VariantValue)
+                ? "شما قبلاً برای این محصول پیشنهاد ثبت کرده‌اید."
+                : $"شما قبلاً برای تنوع «{request.VariantValue.Trim()}» این محصول پیشنهاد ثبت کرده‌اید.");
+
+        var offer = ProductOffers.Create(
+            productId: request.ProductId,
+            supplierId: userId.Value,
+            basePrice: request.BasePrice,
+            inventory: request.Inventory,
+            currentUserId: userId.Value,
+            variantName: request.VariantName,
+            variantValue: request.VariantValue
+        );
+
+        await _offerRepo.AddAsync(offer);
+        await _offerRepo.SaveChangesAsync(cancellationToken);
+        return ServiceResult<IdDto>.Ok(new IdDto { Id = offer.Id });
+    }
+
+    public async Task<ServiceResult<IdDto>> Handle(UpdateProductOfferCommand request, CancellationToken cancellationToken)
+    {
+        var userId = _accessor.HttpContext.GetUserId();
+        if (userId == null)
+            return ServiceResult<IdDto>.Unauthorized();
+
+        var offer = await _offerRepo.GetByIdAsync(request.Id);
+        if (offer == null || offer.IsDeleted)
+            return ServiceResult<IdDto>.Failed("پیشنهاد محصول موردنظر پیدا نشد.");
+
+        if (offer.SupplierId != userId.Value && _accessor.HttpContext?.IsCatalogStaff() != true)
+            return ServiceResult<IdDto>.Failed("این پیشنهاد متعلق به شما نیست و اجازهٔ تغییر آن را ندارید.", ErrorCodes.Forbidden);
+
+        if (request.VariantValue != null
+            && !string.Equals(request.VariantValue.Trim(), offer.VariantValue ?? string.Empty, StringComparison.Ordinal)
+            && await _offerRepo.ExistsAsync(offer.ProductId, offer.SupplierId, request.VariantValue))
+            return ServiceResult<IdDto>.Failed($"برای تنوع «{request.VariantValue.Trim()}» این محصول قبلاً پیشنهاد ثبت شده است.");
+
+        offer.Update(
+            basePrice: request.BasePrice,
+            inventory: request.Inventory,
+            currentUserId: userId.Value,
+            variantName: request.VariantName,
+            variantValue: request.VariantValue
+        );
+
+        if (request.IsActive.HasValue)
+            offer.SetActive(request.IsActive.Value, userId.Value);
+
+        await _offerRepo.SaveChangesAsync(cancellationToken);
+        return ServiceResult<IdDto>.Ok(new IdDto { Id = offer.Id });
+    }
+
+    public async Task<ServiceResult<IdDto>> Handle(ActiveProductOfferCommand request, CancellationToken cancellationToken)
+    {
+        var userId = _accessor.HttpContext.GetUserId();
+        if (userId == null)
+            return ServiceResult<IdDto>.Unauthorized();
+
+        var offer = await _offerRepo.GetByIdAsync(request.Id);
+        if (offer == null || offer.IsDeleted)
+            return ServiceResult<IdDto>.Failed("پیشنهاد محصول موردنظر پیدا نشد.");
+        if (offer.SupplierId != userId.Value && _accessor.HttpContext?.IsCatalogStaff() != true)
+            return ServiceResult<IdDto>.Failed("این پیشنهاد متعلق به شما نیست و اجازهٔ تغییر آن را ندارید.", ErrorCodes.Forbidden);
+
+        offer.SetActive(request.IsActive, userId.Value);
+        await _offerRepo.SaveChangesAsync(cancellationToken);
+        return ServiceResult<IdDto>.Ok(new IdDto { Id = offer.Id });
+    }
+
+    public async Task<ServiceResult<IdDto>> Handle(DeleteProductOfferCommand request, CancellationToken cancellationToken)
+    {
+        var userId = _accessor.HttpContext.GetUserId();
+        if (userId == null)
+            return ServiceResult<IdDto>.Unauthorized();
+
+        var offer = await _offerRepo.GetByIdAsync(request.Id);
+        if (offer == null || offer.IsDeleted)
+            return ServiceResult<IdDto>.Failed("پیشنهاد محصول موردنظر پیدا نشد.");
+        if (offer.SupplierId != userId.Value && _accessor.HttpContext?.IsCatalogStaff() != true)
+            return ServiceResult<IdDto>.Failed("این پیشنهاد متعلق به شما نیست و اجازهٔ تغییر آن را ندارید.", ErrorCodes.Forbidden);
+
+        offer.Delete(userId.Value);
+        await _offerRepo.SaveChangesAsync(cancellationToken);
+        return ServiceResult<IdDto>.Ok(new IdDto { Id = offer.Id });
+    }
+}

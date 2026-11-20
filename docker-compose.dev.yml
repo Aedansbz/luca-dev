@@ -1,0 +1,96 @@
+# =============================================================================
+# Development Environment
+# =============================================================================
+# Run: docker compose -f docker-compose.dev.yml up -d
+# All shared config lives in root `.env` (see `.env.example`).
+# Each service loads it via env_file. Only Docker-network-specific overrides
+# that must differ from host names stay under environment (kept minimal).
+# Backend code is baked into the image (rebuild after C# changes).
+# =============================================================================
+
+services:
+  # ─── PostgreSQL ──────────────────────────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: shop-postgres-dev
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - shop-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+
+  backend:
+    build:
+      context: ./BackEnd
+      dockerfile: Dockerfile.dev
+    container_name: shop-backend-dev
+    environment:
+      Seed__LucaCatalog: "true"
+    ports:
+      - "${BACKEND_PORT:-8080}:8080"
+    env_file:
+      - .env
+    volumes:
+      # Persist uploaded files and DB backups only (no source bind-mount)
+      - uploads:/src/Api/wwwroot/uploads
+      - backups:/src/Api/backups
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - shop-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8080/health > /dev/null || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  frontend:
+    build:
+      context: ./FrontEnd
+      dockerfile: Dockerfile.dev
+    container_name: shop-frontend-dev
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./FrontEnd:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - shop-network
+
+  # ─── pgAdmin ──────────────────────────────────────────────────────────────
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: shop-pgadmin-dev
+    env_file:
+      - .env
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      - shop-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+networks:
+  shop-network:
+
+volumes:
+  postgres_data:
+  uploads:
+  backups:
+  pgadmin_data:

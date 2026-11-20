@@ -1,0 +1,41 @@
+import { getLocale } from 'next-intl/server';
+
+import { pickLocalized } from '@lib/utils';
+import { IDetailedProduct } from '@models/product';
+
+import ProductPurchase from './productPurchase';
+import ProductRate from './productRate';
+
+export default async function ProductInfo({ product }: { product: IDetailedProduct }) {
+  const locale = await getLocale();
+  const categoryName = pickLocalized(
+    locale,
+    product.categoryName,
+    product.categoryEnglishName
+  );
+
+  return (
+    <div className="flex flex-col gap-6 lg:pt-4 w-full max-w-[600px] lg:max-w-none text-start">
+      <div className="flex flex-col gap-1.5">
+        {(product.brandName || categoryName) && (
+          <span className="luca-eyebrow">
+            {[product.brandName, categoryName].filter(Boolean).join(' · ')}
+          </span>
+        )}
+        <h1 className="luca-h2">{product.name}</h1>
+      </div>
+
+      {product.description && (
+        <p className="text-[15px] line-clamp-4 leading-loose luca-muted">{product.description}</p>
+      )}
+
+      <ProductRate
+        id={product.id}
+        average={product.averageRate}
+        count={product.rateCount}
+      />
+
+      <ProductPurchase product={product} />
+    </div>
+  );
+}
